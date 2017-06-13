@@ -208,6 +208,7 @@
 		2BF3E3A41EDFE2C3008EB11C /* AlarmColckModel+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AlarmColckModel+CoreDataProperties.h"; sourceTree = "<group>"; };
 		2BF3E3A51EDFE2C3008EB11C /* AlarmColckModel+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AlarmColckModel+CoreDataProperties.m"; sourceTree = "<group>"; };
 		2BF81B361EB1858800B48ED0 /* WCDSharkeyFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCDSharkeyFunction.h; sourceTree = "<group>"; };
+		2BFD83451EEFE0E500158EA4 /* SYCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYCommon.h; sourceTree = "<group>"; };
 		C4B9377EA57E0CA093B217A8 /* Pods-SYWristband.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYWristband.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SYWristband/Pods-SYWristband.debug.xcconfig"; sourceTree = "<group>"; };
 		C50C69A991636961188CA602 /* Pods-SYWristband.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYWristband.release.xcconfig"; path = "Pods/Target Support Files/Pods-SYWristband/Pods-SYWristband.release.xcconfig"; sourceTree = "<group>"; };
 		D68C09B8487EAA6EC35C219E /* libPods-SYWristband.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SYWristband.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -355,6 +356,7 @@
 				2B9B567A1EEE93D300CC284D /* SYHealthMoulde.m */,
 				2B9B567C1EEE93E900CC284D /* SYDeviceManagerMoulde.h */,
 				2B9B567D1EEE93E900CC284D /* SYDeviceManagerMoulde.m */,
+				2BFD83451EEFE0E500158EA4 /* SYCommon.h */,
 			);
 			path = WristbandModule;
 			sourceTree = "<group>";
