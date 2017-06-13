@@ -1,0 +1,1113 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09B38E3BBA2BB890924E1B41 /* libPods-SYWristband.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D68C09B8487EAA6EC35C219E /* libPods-SYWristband.a */; };
+		2B2849A61ED4331C00774C6B /* UILabel+AutoSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2849A51ED4331C00774C6B /* UILabel+AutoSize.m */; };
+		2B33F0A11EEF76900055C240 /* SYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B33F0A01EEF76900055C240 /* SYHomeViewController.m */; };
+		2B39F3A71EDEB2C500528892 /* SYAlarmClockCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B39F3A61EDEB2C500528892 /* SYAlarmClockCell.m */; };
+		2B3C730B1ECA91AD00778274 /* wristBandImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B3C730A1ECA91AD00778274 /* wristBandImage.xcassets */; };
+		2B3C730F1ECAA5F500778274 /* SYScanedDevicesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C730E1ECAA5F500778274 /* SYScanedDevicesCell.m */; };
+		2B4656521ED970DE00D72EAF /* UpLoadSleepDate+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4656441ED970DE00D72EAF /* UpLoadSleepDate+CoreDataProperties.m */; };
+		2B4656561ED970DE00D72EAF /* UpLoadSportDate+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B46564C1ED970DE00D72EAF /* UpLoadSportDate+CoreDataProperties.m */; };
+		2B4656641ED98C4400D72EAF /* SYHealthModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4656631ED98C4400D72EAF /* SYHealthModel.m */; };
+		2B47FF551ED2779B00AE8E5D /* libSharkeySDKWithiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B47FF541ED2779B00AE8E5D /* libSharkeySDKWithiOS.a */; };
+		2B47FF5D1ED2CC6300AE8E5D /* JHChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B47FF591ED2CC6200AE8E5D /* JHChart.m */; };
+		2B47FF5E1ED2CC6300AE8E5D /* JHLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B47FF5B1ED2CC6300AE8E5D /* JHLineChart.m */; };
+		2B62789A1EA5E82100FC9838 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6278991EA5E82100FC9838 /* main.m */; };
+		2B62789D1EA5E82100FC9838 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B62789C1EA5E82100FC9838 /* AppDelegate.m */; };
+		2B6278A31EA5E82100FC9838 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B6278A11EA5E82100FC9838 /* Main.storyboard */; };
+		2B6278A51EA5E82100FC9838 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B6278A41EA5E82100FC9838 /* Assets.xcassets */; };
+		2B6278B31EA5E82100FC9838 /* SYWristbandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6278B21EA5E82100FC9838 /* SYWristbandTests.m */; };
+		2B6278BE1EA5E82100FC9838 /* SYWristbandUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6278BD1EA5E82100FC9838 /* SYWristbandUITests.m */; };
+		2B64FEA91ECD49880046E1B7 /* SYSportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B64FEA81ECD49880046E1B7 /* SYSportViewController.m */; };
+		2B64FEAC1ECD499F0046E1B7 /* SYSleepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B64FEAB1ECD499F0046E1B7 /* SYSleepViewController.m */; };
+		2B64FEB01ECD7D120046E1B7 /* OBRoundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B64FEAF1ECD7D120046E1B7 /* OBRoundView.m */; };
+		2B64FEB31ECD7D2B0046E1B7 /* OBSportView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B64FEB21ECD7D2B0046E1B7 /* OBSportView.m */; };
+		2B64FEB61ECDA2220046E1B7 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B64FEB51ECDA2220046E1B7 /* NSDate+Extension.m */; };
+		2B64FEB91ECDA4F10046E1B7 /* NSDate+Reporting.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B64FEB81ECDA4F10046E1B7 /* NSDate+Reporting.m */; };
+		2B64FEBC1ECDAE2D0046E1B7 /* SYSleepView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B64FEBB1ECDAE2D0046E1B7 /* SYSleepView.m */; };
+		2B6C68041EC97A1F009EC140 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C68031EC97A1F009EC140 /* MBProgressHUD+Add.m */; };
+		2B6C68071EC98FB0009EC140 /* SYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C68061EC98FB0009EC140 /* SYTabBarViewController.m */; };
+		2B6C68131EC9A07D009EC140 /* SYHealthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C68121EC9A07D009EC140 /* SYHealthViewController.m */; };
+		2B6C68161EC9A0A4009EC140 /* SYDeviveManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C68151EC9A0A4009EC140 /* SYDeviveManagerViewController.m */; };
+		2B6C68211EC9A337009EC140 /* SYBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C68201EC9A337009EC140 /* SYBaseNavigationController.m */; };
+		2B6C68251EC9AB1C009EC140 /* WristStrapModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C68241EC9AB1C009EC140 /* WristStrapModel.m */; };
+		2B6C68281EC9AFD9009EC140 /* SYSearchDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C68271EC9AFD9009EC140 /* SYSearchDeviceViewController.m */; };
+		2B82C43B1EC43D740049232E /* UIColor+HEX.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B82C43A1EC43D740049232E /* UIColor+HEX.m */; };
+		2B82C4471EC45D360049232E /* SYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B82C4461EC45D360049232E /* SYBaseViewController.m */; };
+		2B8FC3BE1EDE6BD500CCCEA7 /* SYAlarmClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8FC3BD1EDE6BD500CCCEA7 /* SYAlarmClockViewController.m */; };
+		2B8FC3C11EDE6CCE00CCCEA7 /* SYAddAlarmClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8FC3C01EDE6CCE00CCCEA7 /* SYAddAlarmClockViewController.m */; };
+		2B8FC3C41EDE6EB700CCCEA7 /* SYDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8FC3C31EDE6EB700CCCEA7 /* SYDatePicker.m */; };
+		2B93A1A51ECECEE50017E622 /* SYWeekSleepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B93A1A41ECECEE50017E622 /* SYWeekSleepViewController.m */; };
+		2B93A1A81ECECEF60017E622 /* SYWeekSportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B93A1A71ECECEF60017E622 /* SYWeekSportViewController.m */; };
+		2B93A1AD1ECED32B0017E622 /* OBChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B93A1AA1ECED32B0017E622 /* OBChart.m */; };
+		2B93A1AE1ECED32B0017E622 /* OBColumnChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B93A1AC1ECED32B0017E622 /* OBColumnChart.m */; };
+		2B9B566E1EEE8D3400CC284D /* SYUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9B566B1EEE8D3400CC284D /* SYUserInfoModel.m */; };
+		2B9B566F1EEE8D3400CC284D /* SYLoginInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9B566D1EEE8D3400CC284D /* SYLoginInfoModel.m */; };
+		2B9B56721EEE8D8100CC284D /* SYUserDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9B56711EEE8D8100CC284D /* SYUserDataManager.m */; };
+		2B9B56781EEE927A00CC284D /* SYBrandTabBarMoulde.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9B56771EEE927A00CC284D /* SYBrandTabBarMoulde.m */; };
+		2B9B567B1EEE93D300CC284D /* SYHealthMoulde.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9B567A1EEE93D300CC284D /* SYHealthMoulde.m */; };
+		2B9B567E1EEE93E900CC284D /* SYDeviceManagerMoulde.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9B567D1EEE93E900CC284D /* SYDeviceManagerMoulde.m */; };
+		2BBD1AB11EE14584001B83A8 /* SYBatteryLevelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBD1AB01EE14584001B83A8 /* SYBatteryLevelView.m */; };
+		2BBD1ABE1EE16418001B83A8 /* SleepDataModel+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBD1AB81EE16418001B83A8 /* SleepDataModel+CoreDataProperties.m */; };
+		2BBD1AC01EE16418001B83A8 /* SportDataModel+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBD1ABC1EE16418001B83A8 /* SportDataModel+CoreDataProperties.m */; };
+		2BC050B41ED833B300A922E4 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BC050B21ED833B300A922E4 /* Model.xcdatamodeld */; };
+		2BC1FCBA1EC586FE00039A44 /* NSString+stringPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1FCB91EC586FE00039A44 /* NSString+stringPattern.m */; };
+		2BC1FCBE1EC5906D00039A44 /* OBDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1FCBD1EC5906D00039A44 /* OBDataRequest.m */; };
+		2BCC664C1ECC20FC00008345 /* SYConnectReminderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC664B1ECC20FC00008345 /* SYConnectReminderView.m */; };
+		2BCC664F1ECC3AF200008345 /* SYDeviceInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC664E1ECC3AF200008345 /* SYDeviceInfoViewController.m */; };
+		2BE71C9A1EA9D45800870586 /* OBDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE71C991EA9D45800870586 /* OBDataManager.m */; };
+		2BF3E3A71EDFE2C3008EB11C /* AlarmColckModel+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF3E3A51EDFE2C3008EB11C /* AlarmColckModel+CoreDataProperties.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B6278AF1EA5E82100FC9838 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B62788D1EA5E82100FC9838 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B6278941EA5E82100FC9838;
+			remoteInfo = SYWristband;
+		};
+		2B6278BA1EA5E82100FC9838 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B62788D1EA5E82100FC9838 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B6278941EA5E82100FC9838;
+			remoteInfo = SYWristband;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B2849A41ED4331C00774C6B /* UILabel+AutoSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AutoSize.h"; sourceTree = "<group>"; };
+		2B2849A51ED4331C00774C6B /* UILabel+AutoSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AutoSize.m"; sourceTree = "<group>"; };
+		2B33F09F1EEF76900055C240 /* SYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYHomeViewController.h; sourceTree = "<group>"; };
+		2B33F0A01EEF76900055C240 /* SYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYHomeViewController.m; sourceTree = "<group>"; };
+		2B39F3A51EDEB2C500528892 /* SYAlarmClockCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYAlarmClockCell.h; sourceTree = "<group>"; };
+		2B39F3A61EDEB2C500528892 /* SYAlarmClockCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYAlarmClockCell.m; sourceTree = "<group>"; };
+		2B3C730A1ECA91AD00778274 /* wristBandImage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = wristBandImage.xcassets; sourceTree = "<group>"; };
+		2B3C730D1ECAA5F500778274 /* SYScanedDevicesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYScanedDevicesCell.h; sourceTree = "<group>"; };
+		2B3C730E1ECAA5F500778274 /* SYScanedDevicesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYScanedDevicesCell.m; sourceTree = "<group>"; };
+		2B4656411ED970DE00D72EAF /* UpLoadSleepDate+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UpLoadSleepDate+CoreDataClass.h"; sourceTree = "<group>"; };
+		2B4656421ED970DE00D72EAF /* UpLoadSleepDate+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UpLoadSleepDate+CoreDataClass.m"; sourceTree = "<group>"; };
+		2B4656431ED970DE00D72EAF /* UpLoadSleepDate+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UpLoadSleepDate+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2B4656441ED970DE00D72EAF /* UpLoadSleepDate+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UpLoadSleepDate+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2B4656491ED970DE00D72EAF /* UpLoadSportDate+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UpLoadSportDate+CoreDataClass.h"; sourceTree = "<group>"; };
+		2B46564A1ED970DE00D72EAF /* UpLoadSportDate+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UpLoadSportDate+CoreDataClass.m"; sourceTree = "<group>"; };
+		2B46564B1ED970DE00D72EAF /* UpLoadSportDate+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UpLoadSportDate+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2B46564C1ED970DE00D72EAF /* UpLoadSportDate+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UpLoadSportDate+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2B4656621ED98C4400D72EAF /* SYHealthModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYHealthModel.h; sourceTree = "<group>"; };
+		2B4656631ED98C4400D72EAF /* SYHealthModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYHealthModel.m; sourceTree = "<group>"; };
+		2B47FF541ED2779B00AE8E5D /* libSharkeySDKWithiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSharkeySDKWithiOS.a; sourceTree = "<group>"; };
+		2B47FF581ED2CC6200AE8E5D /* JHChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHChart.h; sourceTree = "<group>"; };
+		2B47FF591ED2CC6200AE8E5D /* JHChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHChart.m; sourceTree = "<group>"; };
+		2B47FF5A1ED2CC6300AE8E5D /* JHLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLineChart.h; sourceTree = "<group>"; };
+		2B47FF5B1ED2CC6300AE8E5D /* JHLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLineChart.m; sourceTree = "<group>"; };
+		2B6278951EA5E82100FC9838 /* SYWristband.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYWristband.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B6278991EA5E82100FC9838 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B62789B1EA5E82100FC9838 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B62789C1EA5E82100FC9838 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B6278A21EA5E82100FC9838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B6278A41EA5E82100FC9838 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B6278A91EA5E82100FC9838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B6278AE1EA5E82100FC9838 /* SYWristbandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYWristbandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B6278B21EA5E82100FC9838 /* SYWristbandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYWristbandTests.m; sourceTree = "<group>"; };
+		2B6278B41EA5E82100FC9838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B6278B91EA5E82100FC9838 /* SYWristbandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYWristbandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B6278BD1EA5E82100FC9838 /* SYWristbandUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYWristbandUITests.m; sourceTree = "<group>"; };
+		2B6278BF1EA5E82100FC9838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B64FEA71ECD49880046E1B7 /* SYSportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYSportViewController.h; sourceTree = "<group>"; };
+		2B64FEA81ECD49880046E1B7 /* SYSportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYSportViewController.m; sourceTree = "<group>"; };
+		2B64FEAA1ECD499F0046E1B7 /* SYSleepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYSleepViewController.h; sourceTree = "<group>"; };
+		2B64FEAB1ECD499F0046E1B7 /* SYSleepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYSleepViewController.m; sourceTree = "<group>"; };
+		2B64FEAE1ECD7D120046E1B7 /* OBRoundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRoundView.h; sourceTree = "<group>"; };
+		2B64FEAF1ECD7D120046E1B7 /* OBRoundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRoundView.m; sourceTree = "<group>"; };
+		2B64FEB11ECD7D2B0046E1B7 /* OBSportView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBSportView.h; sourceTree = "<group>"; };
+		2B64FEB21ECD7D2B0046E1B7 /* OBSportView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBSportView.m; sourceTree = "<group>"; };
+		2B64FEB41ECDA2220046E1B7 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		2B64FEB51ECDA2220046E1B7 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		2B64FEB71ECDA4F10046E1B7 /* NSDate+Reporting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Reporting.h"; sourceTree = "<group>"; };
+		2B64FEB81ECDA4F10046E1B7 /* NSDate+Reporting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Reporting.m"; sourceTree = "<group>"; };
+		2B64FEBA1ECDAE2D0046E1B7 /* SYSleepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYSleepView.h; sourceTree = "<group>"; };
+		2B64FEBB1ECDAE2D0046E1B7 /* SYSleepView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYSleepView.m; sourceTree = "<group>"; };
+		2B6C68021EC97A1F009EC140 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+		2B6C68031EC97A1F009EC140 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		2B6C68051EC98FB0009EC140 /* SYTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYTabBarViewController.h; sourceTree = "<group>"; };
+		2B6C68061EC98FB0009EC140 /* SYTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYTabBarViewController.m; sourceTree = "<group>"; };
+		2B6C68111EC9A07D009EC140 /* SYHealthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYHealthViewController.h; sourceTree = "<group>"; };
+		2B6C68121EC9A07D009EC140 /* SYHealthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYHealthViewController.m; sourceTree = "<group>"; };
+		2B6C68141EC9A0A4009EC140 /* SYDeviveManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYDeviveManagerViewController.h; sourceTree = "<group>"; };
+		2B6C68151EC9A0A4009EC140 /* SYDeviveManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYDeviveManagerViewController.m; sourceTree = "<group>"; };
+		2B6C681F1EC9A337009EC140 /* SYBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYBaseNavigationController.h; sourceTree = "<group>"; };
+		2B6C68201EC9A337009EC140 /* SYBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYBaseNavigationController.m; sourceTree = "<group>"; };
+		2B6C68231EC9AB1C009EC140 /* WristStrapModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WristStrapModel.h; sourceTree = "<group>"; };
+		2B6C68241EC9AB1C009EC140 /* WristStrapModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WristStrapModel.m; sourceTree = "<group>"; };
+		2B6C68261EC9AFD9009EC140 /* SYSearchDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYSearchDeviceViewController.h; sourceTree = "<group>"; };
+		2B6C68271EC9AFD9009EC140 /* SYSearchDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYSearchDeviceViewController.m; sourceTree = "<group>"; };
+		2B82C4391EC43D740049232E /* UIColor+HEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HEX.h"; sourceTree = "<group>"; };
+		2B82C43A1EC43D740049232E /* UIColor+HEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HEX.m"; sourceTree = "<group>"; };
+		2B82C43D1EC43E170049232E /* BaseCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCommon.h; sourceTree = "<group>"; };
+		2B82C4451EC45D360049232E /* SYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYBaseViewController.h; sourceTree = "<group>"; };
+		2B82C4461EC45D360049232E /* SYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYBaseViewController.m; sourceTree = "<group>"; };
+		2B8FC3BC1EDE6BD500CCCEA7 /* SYAlarmClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYAlarmClockViewController.h; sourceTree = "<group>"; };
+		2B8FC3BD1EDE6BD500CCCEA7 /* SYAlarmClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYAlarmClockViewController.m; sourceTree = "<group>"; };
+		2B8FC3BF1EDE6CCE00CCCEA7 /* SYAddAlarmClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYAddAlarmClockViewController.h; sourceTree = "<group>"; };
+		2B8FC3C01EDE6CCE00CCCEA7 /* SYAddAlarmClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYAddAlarmClockViewController.m; sourceTree = "<group>"; };
+		2B8FC3C21EDE6EB700CCCEA7 /* SYDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYDatePicker.h; sourceTree = "<group>"; };
+		2B8FC3C31EDE6EB700CCCEA7 /* SYDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYDatePicker.m; sourceTree = "<group>"; };
+		2B93A1A31ECECEE50017E622 /* SYWeekSleepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYWeekSleepViewController.h; sourceTree = "<group>"; };
+		2B93A1A41ECECEE50017E622 /* SYWeekSleepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYWeekSleepViewController.m; sourceTree = "<group>"; };
+		2B93A1A61ECECEF60017E622 /* SYWeekSportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYWeekSportViewController.h; sourceTree = "<group>"; };
+		2B93A1A71ECECEF60017E622 /* SYWeekSportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYWeekSportViewController.m; sourceTree = "<group>"; };
+		2B93A1A91ECED32B0017E622 /* OBChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBChart.h; sourceTree = "<group>"; };
+		2B93A1AA1ECED32B0017E622 /* OBChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBChart.m; sourceTree = "<group>"; };
+		2B93A1AB1ECED32B0017E622 /* OBColumnChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBColumnChart.h; sourceTree = "<group>"; };
+		2B93A1AC1ECED32B0017E622 /* OBColumnChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBColumnChart.m; sourceTree = "<group>"; };
+		2B9B566A1EEE8D3400CC284D /* SYUserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYUserInfoModel.h; sourceTree = "<group>"; };
+		2B9B566B1EEE8D3400CC284D /* SYUserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYUserInfoModel.m; sourceTree = "<group>"; };
+		2B9B566C1EEE8D3400CC284D /* SYLoginInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYLoginInfoModel.h; sourceTree = "<group>"; };
+		2B9B566D1EEE8D3400CC284D /* SYLoginInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYLoginInfoModel.m; sourceTree = "<group>"; };
+		2B9B56701EEE8D8100CC284D /* SYUserDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYUserDataManager.h; sourceTree = "<group>"; };
+		2B9B56711EEE8D8100CC284D /* SYUserDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYUserDataManager.m; sourceTree = "<group>"; };
+		2B9B56761EEE927A00CC284D /* SYBrandTabBarMoulde.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYBrandTabBarMoulde.h; sourceTree = "<group>"; };
+		2B9B56771EEE927A00CC284D /* SYBrandTabBarMoulde.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYBrandTabBarMoulde.m; sourceTree = "<group>"; };
+		2B9B56791EEE93D300CC284D /* SYHealthMoulde.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYHealthMoulde.h; sourceTree = "<group>"; };
+		2B9B567A1EEE93D300CC284D /* SYHealthMoulde.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYHealthMoulde.m; sourceTree = "<group>"; };
+		2B9B567C1EEE93E900CC284D /* SYDeviceManagerMoulde.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYDeviceManagerMoulde.h; sourceTree = "<group>"; };
+		2B9B567D1EEE93E900CC284D /* SYDeviceManagerMoulde.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYDeviceManagerMoulde.m; sourceTree = "<group>"; };
+		2BBD1AAF1EE14584001B83A8 /* SYBatteryLevelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYBatteryLevelView.h; sourceTree = "<group>"; };
+		2BBD1AB01EE14584001B83A8 /* SYBatteryLevelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYBatteryLevelView.m; sourceTree = "<group>"; };
+		2BBD1AB51EE16418001B83A8 /* SleepDataModel+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SleepDataModel+CoreDataClass.h"; sourceTree = "<group>"; };
+		2BBD1AB61EE16418001B83A8 /* SleepDataModel+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SleepDataModel+CoreDataClass.m"; sourceTree = "<group>"; };
+		2BBD1AB71EE16418001B83A8 /* SleepDataModel+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SleepDataModel+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2BBD1AB81EE16418001B83A8 /* SleepDataModel+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SleepDataModel+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2BBD1AB91EE16418001B83A8 /* SportDataModel+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SportDataModel+CoreDataClass.h"; sourceTree = "<group>"; };
+		2BBD1ABA1EE16418001B83A8 /* SportDataModel+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SportDataModel+CoreDataClass.m"; sourceTree = "<group>"; };
+		2BBD1ABB1EE16418001B83A8 /* SportDataModel+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SportDataModel+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2BBD1ABC1EE16418001B83A8 /* SportDataModel+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SportDataModel+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2BC050B31ED833B300A922E4 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		2BC1FCB81EC586FE00039A44 /* NSString+stringPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+stringPattern.h"; sourceTree = "<group>"; };
+		2BC1FCB91EC586FE00039A44 /* NSString+stringPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+stringPattern.m"; sourceTree = "<group>"; };
+		2BC1FCBC1EC5906D00039A44 /* OBDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBDataRequest.h; sourceTree = "<group>"; };
+		2BC1FCBD1EC5906D00039A44 /* OBDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBDataRequest.m; sourceTree = "<group>"; };
+		2BCC664A1ECC20FC00008345 /* SYConnectReminderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYConnectReminderView.h; sourceTree = "<group>"; };
+		2BCC664B1ECC20FC00008345 /* SYConnectReminderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYConnectReminderView.m; sourceTree = "<group>"; };
+		2BCC664D1ECC3AF200008345 /* SYDeviceInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYDeviceInfoViewController.h; sourceTree = "<group>"; };
+		2BCC664E1ECC3AF200008345 /* SYDeviceInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYDeviceInfoViewController.m; sourceTree = "<group>"; };
+		2BE71C931EA9B8FC00870586 /* WristStrapCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WristStrapCommon.h; sourceTree = "<group>"; };
+		2BE71C961EA9D3AA00870586 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2BE71C981EA9D45800870586 /* OBDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBDataManager.h; sourceTree = "<group>"; };
+		2BE71C991EA9D45800870586 /* OBDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBDataManager.m; sourceTree = "<group>"; };
+		2BF3E3A21EDFE2C3008EB11C /* AlarmColckModel+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AlarmColckModel+CoreDataClass.h"; sourceTree = "<group>"; };
+		2BF3E3A31EDFE2C3008EB11C /* AlarmColckModel+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AlarmColckModel+CoreDataClass.m"; sourceTree = "<group>"; };
+		2BF3E3A41EDFE2C3008EB11C /* AlarmColckModel+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AlarmColckModel+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2BF3E3A51EDFE2C3008EB11C /* AlarmColckModel+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AlarmColckModel+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2BF81B361EB1858800B48ED0 /* WCDSharkeyFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCDSharkeyFunction.h; sourceTree = "<group>"; };
+		C4B9377EA57E0CA093B217A8 /* Pods-SYWristband.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYWristband.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SYWristband/Pods-SYWristband.debug.xcconfig"; sourceTree = "<group>"; };
+		C50C69A991636961188CA602 /* Pods-SYWristband.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYWristband.release.xcconfig"; path = "Pods/Target Support Files/Pods-SYWristband/Pods-SYWristband.release.xcconfig"; sourceTree = "<group>"; };
+		D68C09B8487EAA6EC35C219E /* libPods-SYWristband.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SYWristband.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B6278921EA5E82100FC9838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B47FF551ED2779B00AE8E5D /* libSharkeySDKWithiOS.a in Frameworks */,
+				09B38E3BBA2BB890924E1B41 /* libPods-SYWristband.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B6278AB1EA5E82100FC9838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B6278B61EA5E82100FC9838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		082A5953881B30223436FC0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4B9377EA57E0CA093B217A8 /* Pods-SYWristband.debug.xcconfig */,
+				C50C69A991636961188CA602 /* Pods-SYWristband.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2B3C730C1ECAA5CB00778274 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B3C730D1ECAA5F500778274 /* SYScanedDevicesCell.h */,
+				2B3C730E1ECAA5F500778274 /* SYScanedDevicesCell.m */,
+				2BCC664A1ECC20FC00008345 /* SYConnectReminderView.h */,
+				2BCC664B1ECC20FC00008345 /* SYConnectReminderView.m */,
+				2B8FC3C21EDE6EB700CCCEA7 /* SYDatePicker.h */,
+				2B8FC3C31EDE6EB700CCCEA7 /* SYDatePicker.m */,
+				2B39F3A51EDEB2C500528892 /* SYAlarmClockCell.h */,
+				2B39F3A61EDEB2C500528892 /* SYAlarmClockCell.m */,
+				2BBD1AAF1EE14584001B83A8 /* SYBatteryLevelView.h */,
+				2BBD1AB01EE14584001B83A8 /* SYBatteryLevelView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2B62788C1EA5E82100FC9838 = {
+			isa = PBXGroup;
+			children = (
+				2B6278971EA5E82100FC9838 /* SYWristband */,
+				2B6278B11EA5E82100FC9838 /* SYWristbandTests */,
+				2B6278BC1EA5E82100FC9838 /* SYWristbandUITests */,
+				2B6278961EA5E82100FC9838 /* Products */,
+				082A5953881B30223436FC0B /* Pods */,
+				3CA98A8F6A59C1CBF5210BB0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B6278961EA5E82100FC9838 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B6278951EA5E82100FC9838 /* SYWristband.app */,
+				2B6278AE1EA5E82100FC9838 /* SYWristbandTests.xctest */,
+				2B6278B91EA5E82100FC9838 /* SYWristbandUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B6278971EA5E82100FC9838 /* SYWristband */ = {
+			isa = PBXGroup;
+			children = (
+				2B82C4371EC43D240049232E /* BaseComponent  基础功能模块 */,
+				2B6278CB1EA5E99400FC9838 /* WristbandComponent 手环模块 */,
+				2B62789B1EA5E82100FC9838 /* AppDelegate.h */,
+				2B62789C1EA5E82100FC9838 /* AppDelegate.m */,
+				2B6C68051EC98FB0009EC140 /* SYTabBarViewController.h */,
+				2B6C68061EC98FB0009EC140 /* SYTabBarViewController.m */,
+				2B6278A11EA5E82100FC9838 /* Main.storyboard */,
+				2B6278A41EA5E82100FC9838 /* Assets.xcassets */,
+				2B6278A91EA5E82100FC9838 /* Info.plist */,
+				2B6278981EA5E82100FC9838 /* Supporting Files */,
+				2B33F09F1EEF76900055C240 /* SYHomeViewController.h */,
+				2B33F0A01EEF76900055C240 /* SYHomeViewController.m */,
+			);
+			path = SYWristband;
+			sourceTree = "<group>";
+		};
+		2B6278981EA5E82100FC9838 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BE71C961EA9D3AA00870586 /* PrefixHeader.pch */,
+				2B6278991EA5E82100FC9838 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B6278B11EA5E82100FC9838 /* SYWristbandTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B6278B21EA5E82100FC9838 /* SYWristbandTests.m */,
+				2B6278B41EA5E82100FC9838 /* Info.plist */,
+			);
+			path = SYWristbandTests;
+			sourceTree = "<group>";
+		};
+		2B6278BC1EA5E82100FC9838 /* SYWristbandUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B6278BD1EA5E82100FC9838 /* SYWristbandUITests.m */,
+				2B6278BF1EA5E82100FC9838 /* Info.plist */,
+			);
+			path = SYWristbandUITests;
+			sourceTree = "<group>";
+		};
+		2B6278CB1EA5E99400FC9838 /* WristbandComponent 手环模块 */ = {
+			isa = PBXGroup;
+			children = (
+				2BE71C901EA9B8FC00870586 /* Prefix */,
+				2BE71C971EA9D45800870586 /* DataManager */,
+				2BE71C5E1EA9B88E00870586 /* UI */,
+				2BE71C591EA9B87700870586 /* libs */,
+				2BE71C5C1EA9B87700870586 /* Source */,
+				2B6278CC1EA5E99400FC9838 /* WristbandModule */,
+			);
+			name = "WristbandComponent 手环模块";
+			path = WristbandComponent;
+			sourceTree = "<group>";
+		};
+		2B6278CC1EA5E99400FC9838 /* WristbandModule */ = {
+			isa = PBXGroup;
+			children = (
+				2B9B56761EEE927A00CC284D /* SYBrandTabBarMoulde.h */,
+				2B9B56771EEE927A00CC284D /* SYBrandTabBarMoulde.m */,
+				2B9B56791EEE93D300CC284D /* SYHealthMoulde.h */,
+				2B9B567A1EEE93D300CC284D /* SYHealthMoulde.m */,
+				2B9B567C1EEE93E900CC284D /* SYDeviceManagerMoulde.h */,
+				2B9B567D1EEE93E900CC284D /* SYDeviceManagerMoulde.m */,
+			);
+			path = WristbandModule;
+			sourceTree = "<group>";
+		};
+		2B64FEAD1ECD7C970046E1B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B64FEAE1ECD7D120046E1B7 /* OBRoundView.h */,
+				2B64FEAF1ECD7D120046E1B7 /* OBRoundView.m */,
+				2B64FEB11ECD7D2B0046E1B7 /* OBSportView.h */,
+				2B64FEB21ECD7D2B0046E1B7 /* OBSportView.m */,
+				2B64FEBA1ECDAE2D0046E1B7 /* SYSleepView.h */,
+				2B64FEBB1ECDAE2D0046E1B7 /* SYSleepView.m */,
+				2B93A1A91ECED32B0017E622 /* OBChart.h */,
+				2B93A1AA1ECED32B0017E622 /* OBChart.m */,
+				2B93A1AB1ECED32B0017E622 /* OBColumnChart.h */,
+				2B93A1AC1ECED32B0017E622 /* OBColumnChart.m */,
+				2B47FF581ED2CC6200AE8E5D /* JHChart.h */,
+				2B47FF591ED2CC6200AE8E5D /* JHChart.m */,
+				2B47FF5A1ED2CC6300AE8E5D /* JHLineChart.h */,
+				2B47FF5B1ED2CC6300AE8E5D /* JHLineChart.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2B6C68101EC9A062009EC140 /* 设备管理模块 */ = {
+			isa = PBXGroup;
+			children = (
+				2B3C730C1ECAA5CB00778274 /* View */,
+				2B6C681D1EC9A14E009EC140 /* Controller */,
+			);
+			name = "设备管理模块";
+			sourceTree = "<group>";
+		};
+		2B6C681C1EC9A12B009EC140 /* 健康模块 */ = {
+			isa = PBXGroup;
+			children = (
+				2B64FEAD1ECD7C970046E1B7 /* View */,
+				2B6C68221EC9AB0F009EC140 /* Model */,
+				2B6C681E1EC9A15D009EC140 /* Controller */,
+			);
+			name = "健康模块";
+			sourceTree = "<group>";
+		};
+		2B6C681D1EC9A14E009EC140 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B6C68141EC9A0A4009EC140 /* SYDeviveManagerViewController.h */,
+				2B6C68151EC9A0A4009EC140 /* SYDeviveManagerViewController.m */,
+				2B6C68261EC9AFD9009EC140 /* SYSearchDeviceViewController.h */,
+				2B6C68271EC9AFD9009EC140 /* SYSearchDeviceViewController.m */,
+				2BCC664D1ECC3AF200008345 /* SYDeviceInfoViewController.h */,
+				2BCC664E1ECC3AF200008345 /* SYDeviceInfoViewController.m */,
+				2B8FC3BC1EDE6BD500CCCEA7 /* SYAlarmClockViewController.h */,
+				2B8FC3BD1EDE6BD500CCCEA7 /* SYAlarmClockViewController.m */,
+				2B8FC3BF1EDE6CCE00CCCEA7 /* SYAddAlarmClockViewController.h */,
+				2B8FC3C01EDE6CCE00CCCEA7 /* SYAddAlarmClockViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2B6C681E1EC9A15D009EC140 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B6C68111EC9A07D009EC140 /* SYHealthViewController.h */,
+				2B6C68121EC9A07D009EC140 /* SYHealthViewController.m */,
+				2B64FEA71ECD49880046E1B7 /* SYSportViewController.h */,
+				2B64FEA81ECD49880046E1B7 /* SYSportViewController.m */,
+				2B64FEAA1ECD499F0046E1B7 /* SYSleepViewController.h */,
+				2B64FEAB1ECD499F0046E1B7 /* SYSleepViewController.m */,
+				2B93A1A31ECECEE50017E622 /* SYWeekSleepViewController.h */,
+				2B93A1A41ECECEE50017E622 /* SYWeekSleepViewController.m */,
+				2B93A1A61ECECEF60017E622 /* SYWeekSportViewController.h */,
+				2B93A1A71ECECEF60017E622 /* SYWeekSportViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2B6C68221EC9AB0F009EC140 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2BBD1AB51EE16418001B83A8 /* SleepDataModel+CoreDataClass.h */,
+				2BBD1AB61EE16418001B83A8 /* SleepDataModel+CoreDataClass.m */,
+				2BBD1AB71EE16418001B83A8 /* SleepDataModel+CoreDataProperties.h */,
+				2BBD1AB81EE16418001B83A8 /* SleepDataModel+CoreDataProperties.m */,
+				2BBD1AB91EE16418001B83A8 /* SportDataModel+CoreDataClass.h */,
+				2BBD1ABA1EE16418001B83A8 /* SportDataModel+CoreDataClass.m */,
+				2BBD1ABB1EE16418001B83A8 /* SportDataModel+CoreDataProperties.h */,
+				2BBD1ABC1EE16418001B83A8 /* SportDataModel+CoreDataProperties.m */,
+				2BF3E3A21EDFE2C3008EB11C /* AlarmColckModel+CoreDataClass.h */,
+				2BF3E3A31EDFE2C3008EB11C /* AlarmColckModel+CoreDataClass.m */,
+				2BF3E3A41EDFE2C3008EB11C /* AlarmColckModel+CoreDataProperties.h */,
+				2BF3E3A51EDFE2C3008EB11C /* AlarmColckModel+CoreDataProperties.m */,
+				2B4656411ED970DE00D72EAF /* UpLoadSleepDate+CoreDataClass.h */,
+				2B4656421ED970DE00D72EAF /* UpLoadSleepDate+CoreDataClass.m */,
+				2B4656431ED970DE00D72EAF /* UpLoadSleepDate+CoreDataProperties.h */,
+				2B4656441ED970DE00D72EAF /* UpLoadSleepDate+CoreDataProperties.m */,
+				2B4656491ED970DE00D72EAF /* UpLoadSportDate+CoreDataClass.h */,
+				2B46564A1ED970DE00D72EAF /* UpLoadSportDate+CoreDataClass.m */,
+				2B46564B1ED970DE00D72EAF /* UpLoadSportDate+CoreDataProperties.h */,
+				2B46564C1ED970DE00D72EAF /* UpLoadSportDate+CoreDataProperties.m */,
+				2B6C68231EC9AB1C009EC140 /* WristStrapModel.h */,
+				2B6C68241EC9AB1C009EC140 /* WristStrapModel.m */,
+				2B4656621ED98C4400D72EAF /* SYHealthModel.h */,
+				2B4656631ED98C4400D72EAF /* SYHealthModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2B82C4371EC43D240049232E /* BaseComponent  基础功能模块 */ = {
+			isa = PBXGroup;
+			children = (
+				2BC1FCBB1EC58F2500039A44 /* NetWorkRequest */,
+				2BC1FCB71EC586DB00039A44 /* FoundationCategory */,
+				2B82C4441EC45D1F0049232E /* Base */,
+				2B82C43C1EC43DF70049232E /* Prefix */,
+				2B82C4381EC43D2A0049232E /* UIKitCategroy */,
+			);
+			name = "BaseComponent  基础功能模块";
+			path = BaseComponent;
+			sourceTree = "<group>";
+		};
+		2B82C4381EC43D2A0049232E /* UIKitCategroy */ = {
+			isa = PBXGroup;
+			children = (
+				2B2849A41ED4331C00774C6B /* UILabel+AutoSize.h */,
+				2B2849A51ED4331C00774C6B /* UILabel+AutoSize.m */,
+				2B6C68021EC97A1F009EC140 /* MBProgressHUD+Add.h */,
+				2B6C68031EC97A1F009EC140 /* MBProgressHUD+Add.m */,
+				2B82C4391EC43D740049232E /* UIColor+HEX.h */,
+				2B82C43A1EC43D740049232E /* UIColor+HEX.m */,
+			);
+			name = UIKitCategroy;
+			sourceTree = "<group>";
+		};
+		2B82C43C1EC43DF70049232E /* Prefix */ = {
+			isa = PBXGroup;
+			children = (
+				2B82C43D1EC43E170049232E /* BaseCommon.h */,
+			);
+			name = Prefix;
+			sourceTree = "<group>";
+		};
+		2B82C4441EC45D1F0049232E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2B9B56701EEE8D8100CC284D /* SYUserDataManager.h */,
+				2B9B56711EEE8D8100CC284D /* SYUserDataManager.m */,
+				2B9B566A1EEE8D3400CC284D /* SYUserInfoModel.h */,
+				2B9B566B1EEE8D3400CC284D /* SYUserInfoModel.m */,
+				2B9B566C1EEE8D3400CC284D /* SYLoginInfoModel.h */,
+				2B9B566D1EEE8D3400CC284D /* SYLoginInfoModel.m */,
+				2B82C4451EC45D360049232E /* SYBaseViewController.h */,
+				2B82C4461EC45D360049232E /* SYBaseViewController.m */,
+				2B6C681F1EC9A337009EC140 /* SYBaseNavigationController.h */,
+				2B6C68201EC9A337009EC140 /* SYBaseNavigationController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		2BC1FCB71EC586DB00039A44 /* FoundationCategory */ = {
+			isa = PBXGroup;
+			children = (
+				2BC1FCB81EC586FE00039A44 /* NSString+stringPattern.h */,
+				2BC1FCB91EC586FE00039A44 /* NSString+stringPattern.m */,
+				2B64FEB41ECDA2220046E1B7 /* NSDate+Extension.h */,
+				2B64FEB51ECDA2220046E1B7 /* NSDate+Extension.m */,
+				2B64FEB71ECDA4F10046E1B7 /* NSDate+Reporting.h */,
+				2B64FEB81ECDA4F10046E1B7 /* NSDate+Reporting.m */,
+			);
+			name = FoundationCategory;
+			sourceTree = "<group>";
+		};
+		2BC1FCBB1EC58F2500039A44 /* NetWorkRequest */ = {
+			isa = PBXGroup;
+			children = (
+				2BC1FCBC1EC5906D00039A44 /* OBDataRequest.h */,
+				2BC1FCBD1EC5906D00039A44 /* OBDataRequest.m */,
+			);
+			name = NetWorkRequest;
+			sourceTree = "<group>";
+		};
+		2BE71C591EA9B87700870586 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				2B47FF541ED2779B00AE8E5D /* libSharkeySDKWithiOS.a */,
+				2BF81B361EB1858800B48ED0 /* WCDSharkeyFunction.h */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		2BE71C5C1EA9B87700870586 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2B3C730A1ECA91AD00778274 /* wristBandImage.xcassets */,
+				2BC050B21ED833B300A922E4 /* Model.xcdatamodeld */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		2BE71C5E1EA9B88E00870586 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2B6C681C1EC9A12B009EC140 /* 健康模块 */,
+				2B6C68101EC9A062009EC140 /* 设备管理模块 */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2BE71C901EA9B8FC00870586 /* Prefix */ = {
+			isa = PBXGroup;
+			children = (
+				2BE71C931EA9B8FC00870586 /* WristStrapCommon.h */,
+			);
+			path = Prefix;
+			sourceTree = "<group>";
+		};
+		2BE71C971EA9D45800870586 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				2BE71C981EA9D45800870586 /* OBDataManager.h */,
+				2BE71C991EA9D45800870586 /* OBDataManager.m */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		3CA98A8F6A59C1CBF5210BB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D68C09B8487EAA6EC35C219E /* libPods-SYWristband.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B6278941EA5E82100FC9838 /* SYWristband */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B6278C21EA5E82100FC9838 /* Build configuration list for PBXNativeTarget "SYWristband" */;
+			buildPhases = (
+				3767667F114F15E09D278FC0 /* [CP] Check Pods Manifest.lock */,
+				2B6278911EA5E82100FC9838 /* Sources */,
+				2B6278921EA5E82100FC9838 /* Frameworks */,
+				2B6278931EA5E82100FC9838 /* Resources */,
+				A97F64A927BC3812372C6433 /* [CP] Embed Pods Frameworks */,
+				C8A37F9A34D22FDE5FC44105 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYWristband;
+			productName = SYWristband;
+			productReference = 2B6278951EA5E82100FC9838 /* SYWristband.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B6278AD1EA5E82100FC9838 /* SYWristbandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B6278C51EA5E82100FC9838 /* Build configuration list for PBXNativeTarget "SYWristbandTests" */;
+			buildPhases = (
+				2B6278AA1EA5E82100FC9838 /* Sources */,
+				2B6278AB1EA5E82100FC9838 /* Frameworks */,
+				2B6278AC1EA5E82100FC9838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B6278B01EA5E82100FC9838 /* PBXTargetDependency */,
+			);
+			name = SYWristbandTests;
+			productName = SYWristbandTests;
+			productReference = 2B6278AE1EA5E82100FC9838 /* SYWristbandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B6278B81EA5E82100FC9838 /* SYWristbandUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B6278C81EA5E82100FC9838 /* Build configuration list for PBXNativeTarget "SYWristbandUITests" */;
+			buildPhases = (
+				2B6278B51EA5E82100FC9838 /* Sources */,
+				2B6278B61EA5E82100FC9838 /* Frameworks */,
+				2B6278B71EA5E82100FC9838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B6278BB1EA5E82100FC9838 /* PBXTargetDependency */,
+			);
+			name = SYWristbandUITests;
+			productName = SYWristbandUITests;
+			productReference = 2B6278B91EA5E82100FC9838 /* SYWristbandUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B62788D1EA5E82100FC9838 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SY;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = obally;
+				TargetAttributes = {
+					2B6278941EA5E82100FC9838 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H9BU355MET;
+						ProvisioningStyle = Automatic;
+					};
+					2B6278AD1EA5E82100FC9838 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H9BU355MET;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B6278941EA5E82100FC9838;
+					};
+					2B6278B81EA5E82100FC9838 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H9BU355MET;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B6278941EA5E82100FC9838;
+					};
+				};
+			};
+			buildConfigurationList = 2B6278901EA5E82100FC9838 /* Build configuration list for PBXProject "SYWristband" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B62788C1EA5E82100FC9838;
+			productRefGroup = 2B6278961EA5E82100FC9838 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B6278941EA5E82100FC9838 /* SYWristband */,
+				2B6278AD1EA5E82100FC9838 /* SYWristbandTests */,
+				2B6278B81EA5E82100FC9838 /* SYWristbandUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B6278931EA5E82100FC9838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3C730B1ECA91AD00778274 /* wristBandImage.xcassets in Resources */,
+				2B6278A51EA5E82100FC9838 /* Assets.xcassets in Resources */,
+				2B6278A31EA5E82100FC9838 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B6278AC1EA5E82100FC9838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B6278B71EA5E82100FC9838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3767667F114F15E09D278FC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A97F64A927BC3812372C6433 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYWristband/Pods-SYWristband-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8A37F9A34D22FDE5FC44105 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYWristband/Pods-SYWristband-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B6278911EA5E82100FC9838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BC050B41ED833B300A922E4 /* Model.xcdatamodeld in Sources */,
+				2B9B56721EEE8D8100CC284D /* SYUserDataManager.m in Sources */,
+				2B6C68251EC9AB1C009EC140 /* WristStrapModel.m in Sources */,
+				2B9B567B1EEE93D300CC284D /* SYHealthMoulde.m in Sources */,
+				2B4656521ED970DE00D72EAF /* UpLoadSleepDate+CoreDataProperties.m in Sources */,
+				2BCC664C1ECC20FC00008345 /* SYConnectReminderView.m in Sources */,
+				2B47FF5D1ED2CC6300AE8E5D /* JHChart.m in Sources */,
+				2B82C4471EC45D360049232E /* SYBaseViewController.m in Sources */,
+				2B64FEB61ECDA2220046E1B7 /* NSDate+Extension.m in Sources */,
+				2B64FEA91ECD49880046E1B7 /* SYSportViewController.m in Sources */,
+				2BC1FCBA1EC586FE00039A44 /* NSString+stringPattern.m in Sources */,
+				2B33F0A11EEF76900055C240 /* SYHomeViewController.m in Sources */,
+				2B6C68281EC9AFD9009EC140 /* SYSearchDeviceViewController.m in Sources */,
+				2B6C68131EC9A07D009EC140 /* SYHealthViewController.m in Sources */,
+				2B9B56781EEE927A00CC284D /* SYBrandTabBarMoulde.m in Sources */,
+				2BCC664F1ECC3AF200008345 /* SYDeviceInfoViewController.m in Sources */,
+				2B93A1AE1ECED32B0017E622 /* OBColumnChart.m in Sources */,
+				2B4656641ED98C4400D72EAF /* SYHealthModel.m in Sources */,
+				2B9B566E1EEE8D3400CC284D /* SYUserInfoModel.m in Sources */,
+				2B6C68071EC98FB0009EC140 /* SYTabBarViewController.m in Sources */,
+				2B6C68211EC9A337009EC140 /* SYBaseNavigationController.m in Sources */,
+				2B6C68161EC9A0A4009EC140 /* SYDeviveManagerViewController.m in Sources */,
+				2B8FC3C11EDE6CCE00CCCEA7 /* SYAddAlarmClockViewController.m in Sources */,
+				2B39F3A71EDEB2C500528892 /* SYAlarmClockCell.m in Sources */,
+				2B62789D1EA5E82100FC9838 /* AppDelegate.m in Sources */,
+				2B64FEBC1ECDAE2D0046E1B7 /* SYSleepView.m in Sources */,
+				2B82C43B1EC43D740049232E /* UIColor+HEX.m in Sources */,
+				2B9B567E1EEE93E900CC284D /* SYDeviceManagerMoulde.m in Sources */,
+				2B93A1A81ECECEF60017E622 /* SYWeekSportViewController.m in Sources */,
+				2BBD1ABE1EE16418001B83A8 /* SleepDataModel+CoreDataProperties.m in Sources */,
+				2B64FEB31ECD7D2B0046E1B7 /* OBSportView.m in Sources */,
+				2BE71C9A1EA9D45800870586 /* OBDataManager.m in Sources */,
+				2B4656561ED970DE00D72EAF /* UpLoadSportDate+CoreDataProperties.m in Sources */,
+				2B64FEB91ECDA4F10046E1B7 /* NSDate+Reporting.m in Sources */,
+				2B8FC3BE1EDE6BD500CCCEA7 /* SYAlarmClockViewController.m in Sources */,
+				2B93A1A51ECECEE50017E622 /* SYWeekSleepViewController.m in Sources */,
+				2B64FEAC1ECD499F0046E1B7 /* SYSleepViewController.m in Sources */,
+				2B64FEB01ECD7D120046E1B7 /* OBRoundView.m in Sources */,
+				2B3C730F1ECAA5F500778274 /* SYScanedDevicesCell.m in Sources */,
+				2B47FF5E1ED2CC6300AE8E5D /* JHLineChart.m in Sources */,
+				2B2849A61ED4331C00774C6B /* UILabel+AutoSize.m in Sources */,
+				2BC1FCBE1EC5906D00039A44 /* OBDataRequest.m in Sources */,
+				2B62789A1EA5E82100FC9838 /* main.m in Sources */,
+				2B93A1AD1ECED32B0017E622 /* OBChart.m in Sources */,
+				2B9B566F1EEE8D3400CC284D /* SYLoginInfoModel.m in Sources */,
+				2B8FC3C41EDE6EB700CCCEA7 /* SYDatePicker.m in Sources */,
+				2B6C68041EC97A1F009EC140 /* MBProgressHUD+Add.m in Sources */,
+				2BBD1AC01EE16418001B83A8 /* SportDataModel+CoreDataProperties.m in Sources */,
+				2BF3E3A71EDFE2C3008EB11C /* AlarmColckModel+CoreDataProperties.m in Sources */,
+				2BBD1AB11EE14584001B83A8 /* SYBatteryLevelView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B6278AA1EA5E82100FC9838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B6278B31EA5E82100FC9838 /* SYWristbandTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B6278B51EA5E82100FC9838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B6278BE1EA5E82100FC9838 /* SYWristbandUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B6278B01EA5E82100FC9838 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B6278941EA5E82100FC9838 /* SYWristband */;
+			targetProxy = 2B6278AF1EA5E82100FC9838 /* PBXContainerItemProxy */;
+		};
+		2B6278BB1EA5E82100FC9838 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B6278941EA5E82100FC9838 /* SYWristband */;
+			targetProxy = 2B6278BA1EA5E82100FC9838 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B6278A11EA5E82100FC9838 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B6278A21EA5E82100FC9838 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B6278C01EA5E82100FC9838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B6278C11EA5E82100FC9838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B6278C31EA5E82100FC9838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4B9377EA57E0CA093B217A8 /* Pods-SYWristband.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = H9BU355MET;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SYWristband/PrefixHeader.pch";
+				INFOPLIST_FILE = SYWristband/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SYWristband/WristbandComponent/libs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.synjones.SYWristband;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B6278C41EA5E82100FC9838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C50C69A991636961188CA602 /* Pods-SYWristband.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = H9BU355MET;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SYWristband/PrefixHeader.pch";
+				INFOPLIST_FILE = SYWristband/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SYWristband/WristbandComponent/libs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.synjones.SYWristband;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2B6278C61EA5E82100FC9838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H9BU355MET;
+				INFOPLIST_FILE = SYWristbandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.synjones.SYWristbandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYWristband.app/SYWristband";
+			};
+			name = Debug;
+		};
+		2B6278C71EA5E82100FC9838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H9BU355MET;
+				INFOPLIST_FILE = SYWristbandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.synjones.SYWristbandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SYWristband.app/SYWristband";
+			};
+			name = Release;
+		};
+		2B6278C91EA5E82100FC9838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = H9BU355MET;
+				INFOPLIST_FILE = SYWristbandUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.synjones.SYWristbandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SYWristband;
+			};
+			name = Debug;
+		};
+		2B6278CA1EA5E82100FC9838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = H9BU355MET;
+				INFOPLIST_FILE = SYWristbandUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.synjones.SYWristbandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SYWristband;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B6278901EA5E82100FC9838 /* Build configuration list for PBXProject "SYWristband" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B6278C01EA5E82100FC9838 /* Debug */,
+				2B6278C11EA5E82100FC9838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B6278C21EA5E82100FC9838 /* Build configuration list for PBXNativeTarget "SYWristband" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B6278C31EA5E82100FC9838 /* Debug */,
+				2B6278C41EA5E82100FC9838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B6278C51EA5E82100FC9838 /* Build configuration list for PBXNativeTarget "SYWristbandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B6278C61EA5E82100FC9838 /* Debug */,
+				2B6278C71EA5E82100FC9838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B6278C81EA5E82100FC9838 /* Build configuration list for PBXNativeTarget "SYWristbandUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B6278C91EA5E82100FC9838 /* Debug */,
+				2B6278CA1EA5E82100FC9838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2BC050B21ED833B300A922E4 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2BC050B31ED833B300A922E4 /* Model.xcdatamodel */,
+			);
+			currentVersion = 2BC050B31ED833B300A922E4 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2B62788D1EA5E82100FC9838 /* Project object */;
+}

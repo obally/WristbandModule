@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="15G31" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="AlarmColckModel" representedClassName="AlarmColckModel" syncable="YES" codeGenerationType="class">
+        <attribute name="cycleDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="dateString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deviceId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isOn" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="userMobile" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SleepDataModel" representedClassName="SleepDataModel" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deepSleep" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="deviceId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lightSleep" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="totalDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="totalSleep" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="userMobile" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SportDataModel" representedClassName="SportDataModel" syncable="YES" codeGenerationType="class">
+        <attribute name="calorie" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deviceId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="distant" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="totalDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="totalStep" optional="YES" attributeType="Integer 32" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="userMobile" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UpLoadSleepDate" representedClassName="UpLoadSleepDate" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deviceId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userMobile" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UpLoadSportDate" representedClassName="UpLoadSportDate" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deviceId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userMobile" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AlarmColckModel" positionX="340" positionY="204" width="128" height="135"/>
+        <element name="SleepDataModel" positionX="-54" positionY="36" width="128" height="150"/>
+        <element name="SportDataModel" positionX="-63" positionY="-18" width="128" height="150"/>
+        <element name="UpLoadSleepDate" positionX="-45" positionY="63" width="128" height="90"/>
+        <element name="UpLoadSportDate" positionX="-54" positionY="54" width="128" height="90"/>
+    </elements>
+</model>
