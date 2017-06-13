@@ -7,7 +7,8 @@
 //
 
 #import "SYDeviceInfoViewController.h"
-
+#if TARGET_IPHONE_SIMULATOR
+#else
 @interface SYDeviceInfoViewController ()
 @property(nonatomic,strong) UIView *topView;
 @property(nonatomic,strong) UIImageView *imageView;
@@ -19,9 +20,10 @@
 @property(nonatomic,strong) UIView *statusView; //状态
 
 @end
-
+#endif
 @implementation SYDeviceInfoViewController
-
+#if TARGET_IPHONE_SIMULATOR
+#else
 #pragma mark - life circle
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -133,5 +135,6 @@
     }
     return _identityName;
 }
-
+#endif
 @end
+

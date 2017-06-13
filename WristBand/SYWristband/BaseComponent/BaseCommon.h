@@ -8,7 +8,7 @@
 
 //#ifndef BaseCommon_h
 //#define BaseCommon_h
-#import <MGJRouter/MGJRouter.h>
+//#import <MGJRouter/MGJRouter.h>
 #import <OBBase/OBBase.h>
 #import "UIColor+HEX.h"
 #import "SYBaseViewController.h"

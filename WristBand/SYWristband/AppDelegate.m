@@ -20,10 +20,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-//#if TARGET_IPHONE_SIMULATOR
-//#else
+#if TARGET_IPHONE_SIMULATOR
+#else
     [WCDSharkeyFunction configuration:self isRelease:NO];
-//#endif
+#endif
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];

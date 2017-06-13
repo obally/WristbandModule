@@ -9,7 +9,8 @@
 #import "SYWeekSportViewController.h"
 #import "JHLineChart.h"
 #import "SportDataModel+CoreDataClass.h"
-
+#if TARGET_IPHONE_SIMULATOR
+#else
 @interface SYWeekSportViewController ()
 {
     CGFloat topViewHeight;
@@ -38,9 +39,10 @@
 @property(nonatomic,strong) NSMutableArray *weekSportArray; //周运动数据
 
 @end
-
+#endif
 @implementation SYWeekSportViewController
-
+#if TARGET_IPHONE_SIMULATOR
+#else
 #pragma mark - life circle
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -565,4 +567,5 @@
     }
     return _weekSportArray;
 }
+#endif
 @end

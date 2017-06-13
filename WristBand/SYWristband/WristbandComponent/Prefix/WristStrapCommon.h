@@ -8,10 +8,10 @@
 
 //#ifndef WristStrapCommon_h
 //#define WristStrapCommon_h
-//#if TARGET_IPHONE_SIMULATOR
-//#else
+#if TARGET_IPHONE_SIMULATOR
+#else
 #import "WCDSharkeyFunction.h"
-//#endif
+#endif
 #import "OBDataManager.h"
 #import "NSDate+Extension.h"
 #import "NSDate+Reporting.h"

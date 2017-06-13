@@ -13,7 +13,8 @@
 #import "SleepDataModel+CoreDataClass.h"
 #import "SportDataModel+CoreDataClass.h"
 #import "SYHealthModel.h"
-
+#if TARGET_IPHONE_SIMULATOR
+#else
 @interface SYSleepViewController ()<UIGestureRecognizerDelegate,WCDSharkeyFunctionDelegate>
 @property(nonatomic,strong)WCDSharkeyFunction *shareKey;
 @property(nonatomic,strong)UIScrollView *timeScrollView; //时间滚动视图
@@ -36,9 +37,10 @@
 @property(nonatomic,strong) NSArray *healthArray;
 
 @end
-
+#endif
 @implementation SYSleepViewController
-
+#if TARGET_IPHONE_SIMULATOR
+#else
 #pragma mark - life circle
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -464,4 +466,5 @@
     }
     return _healthArray;
 }
+#endif
 @end

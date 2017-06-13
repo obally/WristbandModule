@@ -9,6 +9,8 @@
 #import "SYDeviveManagerViewController.h"
 #import "SYSearchDeviceViewController.h"
 #import "SYAlarmClockViewController.h"
+#if TARGET_IPHONE_SIMULATOR
+#else
 @interface SYDeviveManagerViewController ()<WCDSharkeyFunctionDelegate>
 {
     MBProgressHUD *hud;
@@ -36,9 +38,10 @@
 @property(nonatomic,assign) BOOL isConnect; //手环是否连接
 
 @end
-
+#endif
 @implementation SYDeviveManagerViewController
-
+#if TARGET_IPHONE_SIMULATOR
+#else
 #pragma mark - life circle
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -583,4 +586,6 @@
     }
     return _bottomView;
 }
+#endif
 @end
+

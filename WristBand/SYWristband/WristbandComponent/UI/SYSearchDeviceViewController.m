@@ -13,8 +13,8 @@
 #import "SYTabBarViewController.h"
 #import "SYDeviceInfoViewController.h"
 //#import "SYUserDataManager.h"
-//#if TARGET_IPHONE_SIMULATOR
-//#else
+#if TARGET_IPHONE_SIMULATOR
+#else
 @interface SYSearchDeviceViewController ()<WCDSharkeyFunctionDelegate,UITableViewDelegate,UITableViewDataSource,SYScanedDevicesCellDelegate,SYConnectReminderViewDelegate>
 @property(nonatomic,strong)WCDSharkeyFunction *shareKey;
 @property(nonatomic,strong)WristStrapModel *strapModel; //手环数据
@@ -31,10 +31,10 @@
 @property(nonatomic,strong) SYConnectReminderView *reminderView; //敲击提示视图
 
 @end
-//#endif
+#endif
 @implementation SYSearchDeviceViewController
-//#if TARGET_IPHONE_SIMULATOR
-//#else
+#if TARGET_IPHONE_SIMULATOR
+#else
 
 #pragma mark -  生命周期 life circle
 - (void)viewDidLoad {
@@ -875,5 +875,6 @@
     }
     return _reminderView;
 }
-//#endif
+#endif
 @end
+

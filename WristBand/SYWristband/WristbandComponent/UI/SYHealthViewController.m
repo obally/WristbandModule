@@ -14,6 +14,8 @@
 #import "UpLoadSleepDate+CoreDataClass.h"
 #import "UpLoadSportDate+CoreDataClass.h"
 #import "SYHealthModel.h"
+#if TARGET_IPHONE_SIMULATOR
+#else
 @interface SYHealthViewController ()<WCDSharkeyFunctionDelegate>{
     MBProgressHUD *hud;
 }
@@ -35,9 +37,10 @@
 @property(nonatomic,strong)NSMutableArray *calorieArray; //卡路里数
 
 @end
-
+#endif
 @implementation SYHealthViewController
-
+#if TARGET_IPHONE_SIMULATOR
+#else
 #pragma mark - life circle
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -856,5 +859,6 @@
     }
     return _calorieArray;
 }
-
+#endif
 @end
+

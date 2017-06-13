@@ -10,6 +10,8 @@
 #import "OBSportView.h"
 #import "SYWeekSportViewController.h"
 #import "SleepDataModel+CoreDataClass.h"
+#if TARGET_IPHONE_SIMULATOR
+#else
 @interface SYSportViewController ()<UIGestureRecognizerDelegate,WCDSharkeyFunctionDelegate>
 
 @property(nonatomic,strong)UIScrollView *timeScrollView; //时间滚动视图
@@ -27,9 +29,10 @@
 @property(nonatomic,strong)UIButton *weekSportbutton; //周运动详情
 
 @end
-
+#endif
 @implementation SYSportViewController
-
+#if TARGET_IPHONE_SIMULATOR
+#else
 #pragma mark - life circle
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -378,4 +381,6 @@
     _calorieArray = calorieArray;
     [self didClickHeadButtonAction:self.lastSelectedButton];
 }
+#endif
 @end
+

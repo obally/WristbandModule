@@ -9,6 +9,8 @@
 #import "SYWeekSleepViewController.h"
 #import "OBColumnChart.h"
 #import "SleepDataModel+CoreDataClass.h"
+#if TARGET_IPHONE_SIMULATOR
+#else
 @interface SYWeekSleepViewController ()
 {
     CGFloat topViewHeight;
@@ -34,9 +36,10 @@
 @property(nonatomic,strong) NSMutableArray *weekSleepArray; //周睡眠数据
 
 @end
-
+#endif
 @implementation SYWeekSleepViewController
-
+#if TARGET_IPHONE_SIMULATOR
+#else
 #pragma mark - life circle
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -552,4 +555,6 @@
     }
     return _weekSleepArray;
 }
+#endif
 @end
+

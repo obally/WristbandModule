@@ -7,7 +7,8 @@
 //
 
 #import "SYScanedDevicesCell.h"
-
+#if TARGET_IPHONE_SIMULATOR
+#else
 @interface SYScanedDevicesCell ()
 @property(nonatomic,strong)UILabel *name;
 @property(nonatomic,strong)UILabel *modelName; //对应设备名称
@@ -128,4 +129,6 @@
     }
     return _activityView;
 }
+
 @end
+#endif

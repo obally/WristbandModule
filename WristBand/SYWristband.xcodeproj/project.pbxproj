@@ -10,6 +10,7 @@
 		09B38E3BBA2BB890924E1B41 /* libPods-SYWristband.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D68C09B8487EAA6EC35C219E /* libPods-SYWristband.a */; };
 		2B2849A61ED4331C00774C6B /* UILabel+AutoSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2849A51ED4331C00774C6B /* UILabel+AutoSize.m */; };
 		2B33F0A11EEF76900055C240 /* SYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B33F0A01EEF76900055C240 /* SYHomeViewController.m */; };
+		2B33F0A41EEFB7EB0055C240 /* SYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B33F0A31EEFB7EB0055C240 /* SYTabBarViewController.m */; };
 		2B39F3A71EDEB2C500528892 /* SYAlarmClockCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B39F3A61EDEB2C500528892 /* SYAlarmClockCell.m */; };
 		2B3C730B1ECA91AD00778274 /* wristBandImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B3C730A1ECA91AD00778274 /* wristBandImage.xcassets */; };
 		2B3C730F1ECAA5F500778274 /* SYScanedDevicesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C730E1ECAA5F500778274 /* SYScanedDevicesCell.m */; };
@@ -33,7 +34,6 @@
 		2B64FEB91ECDA4F10046E1B7 /* NSDate+Reporting.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B64FEB81ECDA4F10046E1B7 /* NSDate+Reporting.m */; };
 		2B64FEBC1ECDAE2D0046E1B7 /* SYSleepView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B64FEBB1ECDAE2D0046E1B7 /* SYSleepView.m */; };
 		2B6C68041EC97A1F009EC140 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C68031EC97A1F009EC140 /* MBProgressHUD+Add.m */; };
-		2B6C68071EC98FB0009EC140 /* SYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C68061EC98FB0009EC140 /* SYTabBarViewController.m */; };
 		2B6C68131EC9A07D009EC140 /* SYHealthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C68121EC9A07D009EC140 /* SYHealthViewController.m */; };
 		2B6C68161EC9A0A4009EC140 /* SYDeviveManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C68151EC9A0A4009EC140 /* SYDeviveManagerViewController.m */; };
 		2B6C68211EC9A337009EC140 /* SYBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C68201EC9A337009EC140 /* SYBaseNavigationController.m */; };
@@ -88,6 +88,8 @@
 		2B2849A51ED4331C00774C6B /* UILabel+AutoSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AutoSize.m"; sourceTree = "<group>"; };
 		2B33F09F1EEF76900055C240 /* SYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYHomeViewController.h; sourceTree = "<group>"; };
 		2B33F0A01EEF76900055C240 /* SYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYHomeViewController.m; sourceTree = "<group>"; };
+		2B33F0A21EEFB7EB0055C240 /* SYTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYTabBarViewController.h; sourceTree = "<group>"; };
+		2B33F0A31EEFB7EB0055C240 /* SYTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYTabBarViewController.m; sourceTree = "<group>"; };
 		2B39F3A51EDEB2C500528892 /* SYAlarmClockCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYAlarmClockCell.h; sourceTree = "<group>"; };
 		2B39F3A61EDEB2C500528892 /* SYAlarmClockCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYAlarmClockCell.m; sourceTree = "<group>"; };
 		2B3C730A1ECA91AD00778274 /* wristBandImage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = wristBandImage.xcassets; sourceTree = "<group>"; };
@@ -137,8 +139,6 @@
 		2B64FEBB1ECDAE2D0046E1B7 /* SYSleepView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYSleepView.m; sourceTree = "<group>"; };
 		2B6C68021EC97A1F009EC140 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
 		2B6C68031EC97A1F009EC140 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
-		2B6C68051EC98FB0009EC140 /* SYTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYTabBarViewController.h; sourceTree = "<group>"; };
-		2B6C68061EC98FB0009EC140 /* SYTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYTabBarViewController.m; sourceTree = "<group>"; };
 		2B6C68111EC9A07D009EC140 /* SYHealthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYHealthViewController.h; sourceTree = "<group>"; };
 		2B6C68121EC9A07D009EC140 /* SYHealthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYHealthViewController.m; sourceTree = "<group>"; };
 		2B6C68141EC9A0A4009EC140 /* SYDeviveManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYDeviveManagerViewController.h; sourceTree = "<group>"; };
@@ -295,8 +295,6 @@
 				2B6278CB1EA5E99400FC9838 /* WristbandComponent 手环模块 */,
 				2B62789B1EA5E82100FC9838 /* AppDelegate.h */,
 				2B62789C1EA5E82100FC9838 /* AppDelegate.m */,
-				2B6C68051EC98FB0009EC140 /* SYTabBarViewController.h */,
-				2B6C68061EC98FB0009EC140 /* SYTabBarViewController.m */,
 				2B6278A11EA5E82100FC9838 /* Main.storyboard */,
 				2B6278A41EA5E82100FC9838 /* Assets.xcassets */,
 				2B6278A91EA5E82100FC9838 /* Info.plist */,
@@ -560,6 +558,8 @@
 		2BE71C5E1EA9B88E00870586 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				2B33F0A21EEFB7EB0055C240 /* SYTabBarViewController.h */,
+				2B33F0A31EEFB7EB0055C240 /* SYTabBarViewController.m */,
 				2B6C681C1EC9A12B009EC140 /* 健康模块 */,
 				2B6C68101EC9A062009EC140 /* 设备管理模块 */,
 			);
@@ -789,6 +789,7 @@
 				2B82C4471EC45D360049232E /* SYBaseViewController.m in Sources */,
 				2B64FEB61ECDA2220046E1B7 /* NSDate+Extension.m in Sources */,
 				2B64FEA91ECD49880046E1B7 /* SYSportViewController.m in Sources */,
+				2B33F0A41EEFB7EB0055C240 /* SYTabBarViewController.m in Sources */,
 				2BC1FCBA1EC586FE00039A44 /* NSString+stringPattern.m in Sources */,
 				2B33F0A11EEF76900055C240 /* SYHomeViewController.m in Sources */,
 				2B6C68281EC9AFD9009EC140 /* SYSearchDeviceViewController.m in Sources */,
@@ -798,7 +799,6 @@
 				2B93A1AE1ECED32B0017E622 /* OBColumnChart.m in Sources */,
 				2B4656641ED98C4400D72EAF /* SYHealthModel.m in Sources */,
 				2B9B566E1EEE8D3400CC284D /* SYUserInfoModel.m in Sources */,
-				2B6C68071EC98FB0009EC140 /* SYTabBarViewController.m in Sources */,
 				2B6C68211EC9A337009EC140 /* SYBaseNavigationController.m in Sources */,
 				2B6C68161EC9A0A4009EC140 /* SYDeviveManagerViewController.m in Sources */,
 				2B8FC3C11EDE6CCE00CCCEA7 /* SYAddAlarmClockViewController.m in Sources */,
@@ -982,6 +982,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.synjones.SYWristband;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -1002,6 +1003,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.synjones.SYWristband;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};

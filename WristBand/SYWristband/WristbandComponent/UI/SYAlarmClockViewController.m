@@ -10,6 +10,8 @@
 #import "SYAddAlarmClockViewController.h"
 #import "SYAlarmClockCell.h"
 #import "AlarmColckModel+CoreDataClass.h"
+#if TARGET_IPHONE_SIMULATOR
+#else
 @interface SYAlarmClockViewController ()<UITableViewDelegate,UITableViewDataSource,SYAlarmClockCellDelegate>
 
 @property(nonatomic,strong) UITableView *tableView;
@@ -20,9 +22,10 @@
 //@property(nonatomic,strong) NSArray *dataKeyArray;
 
 @end
-
+#endif
 @implementation SYAlarmClockViewController
-
+#if TARGET_IPHONE_SIMULATOR
+#else
 #pragma mark - life circle
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -281,4 +284,6 @@
 //    }
 //    return _dataDic;
 //}
+#endif
 @end
+

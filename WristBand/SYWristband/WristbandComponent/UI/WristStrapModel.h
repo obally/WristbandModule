@@ -13,8 +13,8 @@
  */
 @interface WristStrapModel : NSObject
 //@property(nonatomic,strong) Sharkey *sharKey;
-//#if TARGET_IPHONE_SIMULATOR
-//#else
+#if TARGET_IPHONE_SIMULATOR
+#else
 @property(nonatomic,assign) PAIRTYPE pairType;
 @property(nonatomic,strong) NSString *identifier;
 @property(nonatomic,strong) NSString *firmwareVerison;
@@ -30,5 +30,5 @@
 @property(nonatomic,assign) BOOL isMineDevice; //是否是我连接过的设备
 @property(nonatomic,copy) NSString *mobile; //手机号
 + (WristStrapModel *)shareModel; //单例创建
-//#endif
+#endif
 @end

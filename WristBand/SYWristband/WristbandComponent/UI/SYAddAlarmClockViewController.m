@@ -7,7 +7,8 @@
 //
 
 #import "SYAddAlarmClockViewController.h"
-
+#if TARGET_IPHONE_SIMULATOR
+#else
 @interface SYAddAlarmClockViewController ()
 
 @property(nonatomic,strong) UIDatePicker *datePicker;
@@ -21,9 +22,10 @@
 
 
 @end
-
+#endif
 @implementation SYAddAlarmClockViewController
-
+#if TARGET_IPHONE_SIMULATOR
+#else
 #pragma mark - life circle
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -254,4 +256,6 @@
     }
     return _selectedArray;
 }
+#endif
 @end
+
