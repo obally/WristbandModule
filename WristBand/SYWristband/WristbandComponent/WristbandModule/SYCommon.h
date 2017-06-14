@@ -18,3 +18,7 @@
 #import <IQKeyboardManager/IQUIView+IQKeyboardToolbar.h>
 #import <HandyFrame/UIView+LayoutMethods.h>
 #import <MGJRouter/MGJRouter.h>
+#import "WCDSharkeyFunction.h"
+#import "SYBrandTabBarMoulde.h"
+#import "SYHealthMoulde.h"
+#import "SYDeviceManagerMoulde.h"

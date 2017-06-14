@@ -1,0 +1,1 @@
+../../../WristBand/WristBand/SYWristband/WristbandComponent/WristbandModule/SYBrandTabBarMoulde.h

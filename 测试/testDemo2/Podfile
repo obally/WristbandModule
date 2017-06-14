@@ -1,5 +1,0 @@
-source 'https://github.com/CocoaPods/Specs.git'
-target 'testDemo2’ do
-pod "MGJRouter"
-pod "MagicalRecord"
-end

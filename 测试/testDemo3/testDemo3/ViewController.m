@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import <MGJRouter/MGJRouter.h>
+#import <WristBand/SYHealthMoulde.h>
 @interface ViewController ()
 
 @end
@@ -23,6 +24,13 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    //    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:self];
+    [MGJRouter openURL:HealthMouldeRouter withUserInfo:@{@"navigationVC" : self.navigationController,@"token":@"huang"} completion:^(id result) {
+        
+    }];
 }
 
 
