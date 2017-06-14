@@ -564,10 +564,10 @@
     if (crippleSharkey.macAddress.length == 0) {
         UIAlertController *alert =[UIAlertController alertControllerWithTitle:@"提示" message:@"请先到系统蓝牙去忽略此设备，然后再重新搜索" preferredStyle:UIAlertControllerStyleAlert];
         [alert addAction:[UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
-            NSURL *url = [NSURL URLWithString:@"prefs:root=Bluetooth"];
-            if ([[UIApplication sharedApplication]canOpenURL:url]) {
-                [[UIApplication sharedApplication]openURL:url];
-            }
+//            NSURL *url = [NSURL URLWithString:@"prefs:root=Bluetooth"];
+//            if ([[UIApplication sharedApplication]canOpenURL:url]) {
+//                [[UIApplication sharedApplication]openURL:url];
+//            }
         }]];
         [self presentViewController:alert animated:YES completion:nil];
         return;

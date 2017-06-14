@@ -9,6 +9,8 @@
 #import "SYBaseViewController.h"
 
 @interface SYHealthViewController : SYBaseViewController
-@property(nonatomic,strong) NSString *token;
+//@property(nonatomic,strong) NSString *token;
+//@property(nonatomic,strong) NSString *baseUrl;
+//@property(nonatomic,strong) NSString *schoolNum;
 
 @end

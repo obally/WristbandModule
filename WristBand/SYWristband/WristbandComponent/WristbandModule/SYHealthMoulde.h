@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#define HealthMouldeRouter @"SY://HealthMoulde"
+//#define HealthMouldeRouter @"SY://HealthMoulde"
 @interface SYHealthMoulde : NSObject
 
 @end

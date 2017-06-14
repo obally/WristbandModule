@@ -12,10 +12,21 @@
 + (void)load
 {
     [MGJRouter registerURLPattern:HealthMouldeRouter toHandler:^(NSDictionary *routerParameters) {
-        UINavigationController *nav = routerParameters[MGJRouterParameterUserInfo][@"navigationVC"];
         SYHealthViewController *health = [[SYHealthViewController alloc]init];
-        health.token = routerParameters[MGJRouterParameterUserInfo][@"token"];
-        [nav pushViewController:health animated:YES];
+        SYLoginInfoModel *loginModel = [[SYLoginInfoModel alloc]init];
+        loginModel.token = routerParameters[MGJRouterParameterUserInfo][SYUserToken];
+        loginModel.schoolNum = routerParameters[MGJRouterParameterUserInfo][SYUserSchoolNum];
+        loginModel.baseUrl = routerParameters[MGJRouterParameterUserInfo][SYBaseUrl];
+        loginModel.mobile = @"18701459982";
+        [SYUserDataManager manager].userLoginInfoModel = loginModel;
+        UIViewController *nav = routerParameters[MGJRouterParameterUserInfo][SYController];
+        if ([nav isKindOfClass:[UINavigationController class]]) {
+             [(UINavigationController *)nav pushViewController:health animated:YES];
+        } else {
+            [(UINavigationController *)nav presentViewController:health animated:YES completion:nil];
+        }
+        
+       
         
     }];
 }

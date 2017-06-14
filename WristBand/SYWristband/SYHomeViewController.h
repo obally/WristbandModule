@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SYHomeViewController : UIViewController
+@interface SYHomeViewController : SYBaseViewController
 
 @end

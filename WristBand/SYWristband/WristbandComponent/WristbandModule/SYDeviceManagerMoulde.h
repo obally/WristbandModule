@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#define DeviceManagerMoulde @"SY://DeviceManagerMoulde"
+//#define DeviceManagerMoulde @"SY://DeviceManagerMoulde"
 @interface SYDeviceManagerMoulde : NSObject
 
 @end

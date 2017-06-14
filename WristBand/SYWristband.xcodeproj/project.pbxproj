@@ -982,9 +982,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/SYWristband/WristbandComponent/libs",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.synjones.SYWristband;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synjones.SYWristbandDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "armv7 armv7s arm64";
+				WARNING_CFLAGS = "-Wno-unused-variable";
 			};
 			name = Debug;
 		};
@@ -1003,9 +1004,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/SYWristband/WristbandComponent/libs",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.synjones.SYWristband;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synjones.SYWristbandDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "armv7 armv7s arm64";
+				WARNING_CFLAGS = "-Wno-unused-variable";
 			};
 			name = Release;
 		};

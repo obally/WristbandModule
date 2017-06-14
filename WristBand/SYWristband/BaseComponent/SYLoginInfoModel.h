@@ -19,5 +19,7 @@
 @property(nonatomic,copy) NSString *height; //身高
 @property(nonatomic,copy) NSString *weight; //体重
 @property(nonatomic,copy) NSString *birthday; //生日
+@property(nonatomic,copy) NSString *baseUrl; //服务器地址
+@property(nonatomic,copy) NSString *schoolNum; //学校号
 
 @end

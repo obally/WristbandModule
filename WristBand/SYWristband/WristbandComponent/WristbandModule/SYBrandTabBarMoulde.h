@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#define BrandTabBarMouleRouter @"SY://BrandTabBar"
+//#define BrandTabBarMouleRouter @"SY://BrandTabBar"
 @interface SYBrandTabBarMoulde : NSObject
 
 @end

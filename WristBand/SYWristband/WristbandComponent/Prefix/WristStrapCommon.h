@@ -12,6 +12,7 @@
 #else
 #import "WCDSharkeyFunction.h"
 #endif
+
 #import "OBDataManager.h"
 #import "NSDate+Extension.h"
 #import "NSDate+Reporting.h"
@@ -36,3 +37,12 @@
 //1.8 最近7天睡眠和运动数据
 #define kAPI_querySevendayData kAPI_WristBaseURL"/sportbracelet/querySevendayData"
 //#endif /* WristStrapCommon_h */
+
+#define HealthMouldeRouter @"SY://HealthMoulde"
+#define DeviceManagerMoulde @"SY://DeviceManagerMoulde"
+#define BrandTabBarMouleRouter @"SY://BrandTabBar"
+
+#define SYBaseUrl @"SYBaseUrl" //服务器地址
+#define SYController @"navigationVC"//当前控制器  push传导航控制器 present传模态视图
+#define SYUserToken @"SYUserToken" //用户唯一表示
+#define SYUserSchoolNum @"SYUserSchoolNum" //用户学校编号

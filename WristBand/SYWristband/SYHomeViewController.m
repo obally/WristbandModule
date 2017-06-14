@@ -27,10 +27,11 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-//    [MGJRouter openURL:HealthMouldeRouter withUserInfo:@{@"navigationVC" : self.navigationController,@"token":@"huang"} completion:^(id result) {
-//        
-//    }];
-    [MGJRouter openURL:BrandTabBarMouleRouter withUserInfo:@{@"navigationVC" : self.navigationController,@"token":@"huang"} completion:^(id result) {
+    NSMutableDictionary *dic = [NSMutableDictionary dictionary];
+    [dic setObject:self.navigationController forKey:SYController];
+    [dic setObject:@"f4546f9cf77c44219da2ee2e04c5fc11" forKey:SYUserToken];
+    [dic setObject:@"123" forKey:SYUserSchoolNum];
+    [MGJRouter openURL:DeviceManagerMoulde withUserInfo:dic completion:^(id result) {
         
     }];
 }
