@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import <WristBand/SYCommon.h>
 @interface AppDelegate ()
 
 @end

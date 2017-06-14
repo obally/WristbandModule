@@ -1,1 +1,0 @@
-../../../WristBand/WristBand/SYWristband/WristbandComponent/Prefix/SYHomeModule.h

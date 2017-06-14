@@ -7,8 +7,9 @@
 //
 
 #import "AppDelegate.h"
-#import <WristBand/WristStrapCommon.h>
+//#import <WristBand/WristStrapCommon.h>
 #import "ViewController.h"
+#import <MagicalRecord/MagicalRecord.h>
 @interface AppDelegate ()
 
 @end
@@ -17,11 +18,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-#if TARGET_IPHONE_SIMULATOR
-#else
-    [WCDSharkeyFunction configuration:self isRelease:NO];
-#endif
-    
+//#if TARGET_IPHONE_SIMULATOR
+//#else
+//    [WCDSharkeyFunction configuration:self isRelease:NO];
+//#endif
+//    
     [MagicalRecord setupCoreDataStackWithAutoMigratingSqliteStoreNamed:@"MyDatabase.sqlite"];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];

@@ -7,7 +7,9 @@
 //
 
 #import "ViewController.h"
-#import <OBBase/OBBase.h>
+//#import <OBBase/OBBase.h>
+//#import <WristBand/SYHealthMoulde.h>
+#import <MGJRouter/MGJRouter.h>
 #import <WristBand/SYHealthMoulde.h>
 @interface ViewController ()
 

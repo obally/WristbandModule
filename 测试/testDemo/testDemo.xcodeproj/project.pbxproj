@@ -15,6 +15,10 @@
 		2B33F0C21EEFCC430055C240 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B33F0C01EEFCC430055C240 /* LaunchScreen.storyboard */; };
 		2B33F0CD1EEFCC430055C240 /* testDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B33F0CC1EEFCC430055C240 /* testDemoTests.m */; };
 		2B33F0D81EEFCC430055C240 /* testDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B33F0D71EEFCC430055C240 /* testDemoUITests.m */; };
+		2BFD834B1EEFE63F00158EA4 /* WristBand.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BFD834A1EEFE63F00158EA4 /* WristBand.framework */; };
+		2BFD834D1EEFE84200158EA4 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BFD834C1EEFE84200158EA4 /* CoreBluetooth.framework */; };
+		2BFD834F1EEFE84C00158EA4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BFD834E1EEFE84C00158EA4 /* MobileCoreServices.framework */; };
+		2BFD83511EEFE85600158EA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BFD83501EEFE85600158EA4 /* CoreGraphics.framework */; };
 		6DDCC22333587B3898A10311 /* libPods-testDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDF47123C5C8838494954A8A /* libPods-testDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +57,10 @@
 		2B33F0D31EEFCC430055C240 /* testDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B33F0D71EEFCC430055C240 /* testDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testDemoUITests.m; sourceTree = "<group>"; };
 		2B33F0D91EEFCC430055C240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BFD834A1EEFE63F00158EA4 /* WristBand.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WristBand.framework; sourceTree = "<group>"; };
+		2BFD834C1EEFE84200158EA4 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		2BFD834E1EEFE84C00158EA4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2BFD83501EEFE85600158EA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		97FD559426F52FA2D82637C4 /* Pods-testDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-testDemo/Pods-testDemo.release.xcconfig"; sourceTree = "<group>"; };
 		EDF47123C5C8838494954A8A /* libPods-testDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -62,7 +70,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BFD83511EEFE85600158EA4 /* CoreGraphics.framework in Frameworks */,
+				2BFD834F1EEFE84C00158EA4 /* MobileCoreServices.framework in Frameworks */,
+				2BFD834D1EEFE84200158EA4 /* CoreBluetooth.framework in Frameworks */,
 				6DDCC22333587B3898A10311 /* libPods-testDemo.a in Frameworks */,
+				2BFD834B1EEFE63F00158EA4 /* WristBand.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +98,9 @@
 		08D40D3D1967AA88A73F4408 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2BFD83501EEFE85600158EA4 /* CoreGraphics.framework */,
+				2BFD834E1EEFE84C00158EA4 /* MobileCoreServices.framework */,
+				2BFD834C1EEFE84200158EA4 /* CoreBluetooth.framework */,
 				EDF47123C5C8838494954A8A /* libPods-testDemo.a */,
 			);
 			name = Frameworks;
@@ -116,6 +131,7 @@
 		2B33F0B11EEFCC430055C240 /* testDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2BFD834A1EEFE63F00158EA4 /* WristBand.framework */,
 				2B33F0B51EEFCC430055C240 /* AppDelegate.h */,
 				2B33F0B61EEFCC430055C240 /* AppDelegate.m */,
 				2B33F0B81EEFCC430055C240 /* ViewController.h */,
@@ -506,6 +522,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 227JJ5V99C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/testDemo",
+				);
 				INFOPLIST_FILE = testDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -520,6 +540,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 227JJ5V99C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/testDemo",
+				);
 				INFOPLIST_FILE = testDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -1,0 +1,17 @@
+PODS:
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+  - MGJRouter (0.9.3)
+
+DEPENDENCIES:
+  - MagicalRecord
+  - MGJRouter
+
+SPEC CHECKSUMS:
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  MGJRouter: f65821e2aeffc8f9e84b254c8f1c0dd80f048aa9
+
+PODFILE CHECKSUM: 02b9a9d31235c93a282b2394960a317ab8c905a7
+
+COCOAPODS: 1.2.1

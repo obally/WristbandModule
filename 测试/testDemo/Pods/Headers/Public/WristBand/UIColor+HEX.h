@@ -1,1 +1,0 @@
-../../../WristBand/WristBand/SYWristband/BaseComponent/UIColor+HEX.h

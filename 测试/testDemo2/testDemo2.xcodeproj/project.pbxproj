@@ -15,6 +15,11 @@
 		2BFD831E1EEFD65600158EA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BFD831C1EEFD65600158EA4 /* LaunchScreen.storyboard */; };
 		2BFD83291EEFD65600158EA4 /* testDemo2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFD83281EEFD65600158EA4 /* testDemo2Tests.m */; };
 		2BFD83341EEFD65600158EA4 /* testDemo2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFD83331EEFD65600158EA4 /* testDemo2UITests.m */; };
+		2BFD83491EEFE51400158EA4 /* WristBand.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BFD83481EEFE51400158EA4 /* WristBand.framework */; };
+		2BFD83541EEFE89D00158EA4 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BFD83531EEFE89D00158EA4 /* CoreBluetooth.framework */; };
+		2BFD83561EEFE8A600158EA4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BFD83551EEFE8A600158EA4 /* MobileCoreServices.framework */; };
+		2BFD83581EEFE8B400158EA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BFD83571EEFE8B400158EA4 /* CoreGraphics.framework */; };
+		F1E1DC637641E83C33EF0F52 /* libPods-testDemo2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1BE6392E87C89C570E69F0 /* libPods-testDemo2.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,13 @@
 		2BFD832F1EEFD65600158EA4 /* testDemo2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testDemo2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BFD83331EEFD65600158EA4 /* testDemo2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testDemo2UITests.m; sourceTree = "<group>"; };
 		2BFD83351EEFD65600158EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BFD83481EEFE51400158EA4 /* WristBand.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WristBand.framework; sourceTree = "<group>"; };
+		2BFD83531EEFE89D00158EA4 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		2BFD83551EEFE8A600158EA4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2BFD83571EEFE8B400158EA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C407687C41A83DFE3B538EC3 /* Pods-testDemo2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testDemo2.release.xcconfig"; path = "Pods/Target Support Files/Pods-testDemo2/Pods-testDemo2.release.xcconfig"; sourceTree = "<group>"; };
+		DB1BE6392E87C89C570E69F0 /* libPods-testDemo2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testDemo2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC956A3AEE6DF655684178EA /* Pods-testDemo2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testDemo2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testDemo2/Pods-testDemo2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BFD83581EEFE8B400158EA4 /* CoreGraphics.framework in Frameworks */,
+				2BFD83561EEFE8A600158EA4 /* MobileCoreServices.framework in Frameworks */,
+				2BFD83541EEFE89D00158EA4 /* CoreBluetooth.framework in Frameworks */,
+				2BFD83491EEFE51400158EA4 /* WristBand.framework in Frameworks */,
+				F1E1DC637641E83C33EF0F52 /* libPods-testDemo2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +102,8 @@
 				2BFD83271EEFD65600158EA4 /* testDemo2Tests */,
 				2BFD83321EEFD65600158EA4 /* testDemo2UITests */,
 				2BFD830C1EEFD65600158EA4 /* Products */,
+				2BFD83521EEFE89D00158EA4 /* Frameworks */,
+				E3FBA28CB40ED39A8140D142 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +125,7 @@
 				2BFD83141EEFD65600158EA4 /* ViewController.h */,
 				2BFD83151EEFD65600158EA4 /* ViewController.m */,
 				2BFD83171EEFD65600158EA4 /* Main.storyboard */,
+				2BFD83481EEFE51400158EA4 /* WristBand.framework */,
 				2BFD831A1EEFD65600158EA4 /* Assets.xcassets */,
 				2BFD831C1EEFD65600158EA4 /* LaunchScreen.storyboard */,
 				2BFD831F1EEFD65600158EA4 /* Info.plist */,
@@ -140,6 +160,26 @@
 			path = testDemo2UITests;
 			sourceTree = "<group>";
 		};
+		2BFD83521EEFE89D00158EA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BFD83571EEFE8B400158EA4 /* CoreGraphics.framework */,
+				2BFD83551EEFE8A600158EA4 /* MobileCoreServices.framework */,
+				2BFD83531EEFE89D00158EA4 /* CoreBluetooth.framework */,
+				DB1BE6392E87C89C570E69F0 /* libPods-testDemo2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3FBA28CB40ED39A8140D142 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC956A3AEE6DF655684178EA /* Pods-testDemo2.debug.xcconfig */,
+				C407687C41A83DFE3B538EC3 /* Pods-testDemo2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BFD83381EEFD65600158EA4 /* Build configuration list for PBXNativeTarget "testDemo2" */;
 			buildPhases = (
+				11DAA702DE581E3491EB3CDE /* [CP] Check Pods Manifest.lock */,
 				2BFD83071EEFD65600158EA4 /* Sources */,
 				2BFD83081EEFD65600158EA4 /* Frameworks */,
 				2BFD83091EEFD65600158EA4 /* Resources */,
+				005D15AFE33EE401A8DCCB48 /* [CP] Embed Pods Frameworks */,
+				5EB83FAE490E087A05CE2B39 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +313,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		005D15AFE33EE401A8DCCB48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testDemo2/Pods-testDemo2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11DAA702DE581E3491EB3CDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5EB83FAE490E087A05CE2B39 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testDemo2/Pods-testDemo2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2BFD83071EEFD65600158EA4 /* Sources */ = {
@@ -427,25 +518,45 @@
 		};
 		2BFD83391EEFD65600158EA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC956A3AEE6DF655684178EA /* Pods-testDemo2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 227JJ5V99C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/testDemo2",
+				);
 				INFOPLIST_FILE = testDemo2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/testDemo2",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.synjones.testDemo2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
 		2BFD833A1EEFD65600158EA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C407687C41A83DFE3B538EC3 /* Pods-testDemo2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 227JJ5V99C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/testDemo2",
+				);
 				INFOPLIST_FILE = testDemo2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/testDemo2",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.synjones.testDemo2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -518,6 +629,7 @@
 				2BFD833A1EEFD65600158EA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BFD833B1EEFD65600158EA4 /* Build configuration list for PBXNativeTarget "testDemo2Tests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +638,7 @@
 				2BFD833D1EEFD65600158EA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BFD833E1EEFD65600158EA4 /* Build configuration list for PBXNativeTarget "testDemo2UITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +647,7 @@
 				2BFD83401EEFD65600158EA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

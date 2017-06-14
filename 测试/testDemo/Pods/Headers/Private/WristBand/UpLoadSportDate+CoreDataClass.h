@@ -1,1 +1,0 @@
-../../../WristBand/WristBand/SYWristband/WristbandComponent/UI/UpLoadSportDate+CoreDataClass.h

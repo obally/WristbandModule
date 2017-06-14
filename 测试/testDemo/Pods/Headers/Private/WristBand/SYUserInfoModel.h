@@ -1,1 +1,0 @@
-../../../WristBand/WristBand/SYWristband/BaseComponent/SYUserInfoModel.h

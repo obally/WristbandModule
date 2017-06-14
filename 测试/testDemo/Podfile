@@ -1,6 +1,7 @@
-source 'https://github.com/obally/OBRepositories.git'
+#source 'https://github.com/obally/OBRepositories.git'
 source 'https://github.com/CocoaPods/Specs.git'
 target 'testDemo' do
-pod 'WristBand','~>0.0.4’
+#pod 'WristBand','~>0.0.4’
+pod "MGJRouter"
 pod "MagicalRecord"
 end
