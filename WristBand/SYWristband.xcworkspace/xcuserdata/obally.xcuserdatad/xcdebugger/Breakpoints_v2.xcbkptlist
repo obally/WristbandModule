@@ -471,7 +471,7 @@
                   moduleName = "SYWristband"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/obally/Desktop/WristbandModule/WristBand/SYWristband/WristbandComponent/UI/SYSearchDeviceViewController.m"
-                  timestampString = "519119115.028182"
+                  timestampString = "519208977.113495"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "432"
@@ -486,7 +486,7 @@
                   moduleName = "SYWristband"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/obally/Desktop/WristbandModule/WristBand/SYWristband/WristbandComponent/UI/SYSearchDeviceViewController.m"
-                  timestampString = "519119115.030039"
+                  timestampString = "519208977.116867"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "434"
@@ -1431,7 +1431,7 @@
                   moduleName = "SYWristband"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/obally/Desktop/WristbandModule/WristBand/SYWristband/WristbandComponent/UI/SYHealthViewController.m"
-                  timestampString = "519119115.058935"
+                  timestampString = "519208977.153196"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "209"
@@ -1446,7 +1446,7 @@
                   moduleName = "SYWristband"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/obally/Desktop/WristbandModule/WristBand/SYWristband/WristbandComponent/UI/SYHealthViewController.m"
-                  timestampString = "519119115.060294"
+                  timestampString = "519208977.15462"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "211"
@@ -1863,7 +1863,7 @@
                   moduleName = "SYWristband"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/obally/Desktop/WristbandModule/WristBand/SYWristband/WristbandComponent/UI/SYDeviveManagerViewController.m"
-                  timestampString = "519119115.092704"
+                  timestampString = "519208977.199922"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "350"
@@ -1878,7 +1878,7 @@
                   moduleName = "SYWristband"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/obally/Desktop/WristbandModule/WristBand/SYWristband/WristbandComponent/UI/SYDeviveManagerViewController.m"
-                  timestampString = "519119115.094159"
+                  timestampString = "519208977.201652"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "350"
@@ -1893,7 +1893,7 @@
                   moduleName = "SYWristband"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/obally/Desktop/WristbandModule/WristBand/SYWristband/WristbandComponent/UI/SYDeviveManagerViewController.m"
-                  timestampString = "519119115.095693"
+                  timestampString = "519208977.203125"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "351"
@@ -1958,7 +1958,7 @@
                   moduleName = "SYWristband"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/obally/Desktop/WristbandModule/WristBand/SYWristband/WristbandComponent/UI/SYDeviveManagerViewController.m"
-                  timestampString = "519119115.10352"
+                  timestampString = "519208977.211436"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "348"
@@ -1973,7 +1973,7 @@
                   moduleName = "SYWristband"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/obally/Desktop/WristbandModule/WristBand/SYWristband/WristbandComponent/UI/SYDeviveManagerViewController.m"
-                  timestampString = "519119115.104997"
+                  timestampString = "519208977.21465"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "350"
@@ -2157,6 +2157,54 @@
             endingLineNumber = "191"
             landmarkName = "-setTableViewData"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SYWristband/WristbandComponent/UI/SYSearchDeviceViewController.m"
+            timestampString = "519122020.106825"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "402"
+            endingLineNumber = "402"
+            landmarkName = "-requestBindDeviceWithWristModel:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SYSearchDeviceViewController requestBindDeviceWithWristModel:]"
+                  moduleName = "SYWristband"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/obally/Desktop/WristbandModule/WristBand/SYWristband/WristbandComponent/UI/SYSearchDeviceViewController.m"
+                  timestampString = "519208977.272542"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "402"
+                  endingLineNumber = "402"
+                  offsetFromSymbolStart = "1408">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__64-[SYSearchDeviceViewController requestBindDeviceWithWristModel:]_block_invoke"
+                  moduleName = "SYWristband"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/obally/Desktop/WristbandModule/WristBand/SYWristband/WristbandComponent/UI/SYSearchDeviceViewController.m"
+                  timestampString = "519208977.27566"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "404"
+                  endingLineNumber = "404"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

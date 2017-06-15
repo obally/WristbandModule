@@ -1,0 +1,7 @@
+source 'https://github.com/obally/OBRepositories.git'
+source 'https://github.com/CocoaPods/Specs.git'
+inhibit_all_warnings!
+target 'WristbandFrameWork' do
+pod 'OBBase','~>0.0.7'
+pod "MagicalRecord"
+end

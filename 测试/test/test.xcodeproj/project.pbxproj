@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B8103611EF23672007A2854 /* libOtherLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8103601EF23672007A2854 /* libOtherLibrary.a */; };
+		2B8103631EF259A0007A2854 /* libSharkeySDKWithiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8103621EF259A0007A2854 /* libSharkeySDKWithiOS.a */; };
+		2B8103BE1EF2791D007A2854 /* Model.mom in Resources */ = {isa = PBXBuildFile; fileRef = 2B8103BB1EF2791D007A2854 /* Model.mom */; };
+		2B8103BF1EF2791D007A2854 /* VersionInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B8103BC1EF2791D007A2854 /* VersionInfo.plist */; };
+		2B8103C01EF2791D007A2854 /* wristBandImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B8103BD1EF2791D007A2854 /* wristBandImage.xcassets */; };
 		2BBEE2B21EF0E59000930775 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBEE2B11EF0E59000930775 /* main.m */; };
 		2BBEE2B51EF0E59000930775 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBEE2B41EF0E59000930775 /* AppDelegate.m */; };
 		2BBEE2B81EF0E59100930775 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBEE2B71EF0E59100930775 /* ViewController.m */; };
@@ -15,6 +20,7 @@
 		2BBEE2C01EF0E59100930775 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BBEE2BE1EF0E59100930775 /* LaunchScreen.storyboard */; };
 		2BBEE2CB1EF0E59100930775 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBEE2CA1EF0E59100930775 /* testTests.m */; };
 		2BBEE2D61EF0E59100930775 /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBEE2D51EF0E59100930775 /* testUITests.m */; };
+		72D9761FBBA55EBFD8148C17 /* libPods-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 394B0241B5D0799E8BA14075 /* libPods-test.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B8103601EF23672007A2854 /* libOtherLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOtherLibrary.a; sourceTree = "<group>"; };
+		2B8103621EF259A0007A2854 /* libSharkeySDKWithiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSharkeySDKWithiOS.a; sourceTree = "<group>"; };
+		2B8103BB1EF2791D007A2854 /* Model.mom */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Model.mom; sourceTree = "<group>"; };
+		2B8103BC1EF2791D007A2854 /* VersionInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = VersionInfo.plist; sourceTree = "<group>"; };
+		2B8103BD1EF2791D007A2854 /* wristBandImage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = wristBandImage.xcassets; sourceTree = "<group>"; };
 		2BBEE2AD1EF0E59000930775 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BBEE2B11EF0E59000930775 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2BBEE2B31EF0E59000930775 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +62,16 @@
 		2BBEE2D11EF0E59100930775 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BBEE2D51EF0E59100930775 /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
 		2BBEE2D71EF0E59100930775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BE074C41EF22DBB00DF15F1 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		2BE074C61EF22DDF00DF15F1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2BE074C81EF22DEB00DF15F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2BE074CB1EF22EA300DF15F1 /* SYCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYCommon.h; sourceTree = "<group>"; };
+		2BE074CC1EF22EA300DF15F1 /* WCDSharkeyFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCDSharkeyFunction.h; sourceTree = "<group>"; };
+		2BE074CF1EF2321D00DF15F1 /* SYDeviveManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYDeviveManagerViewController.h; sourceTree = "<group>"; };
+		2BE074D01EF232C200DF15F1 /* SYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYBaseViewController.h; sourceTree = "<group>"; };
+		394B0241B5D0799E8BA14075 /* libPods-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7767BBD9A29A72162A20EF2 /* Pods-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test/Pods-test.debug.xcconfig"; sourceTree = "<group>"; };
+		F1B6A28F79ABAB16431E2832 /* Pods-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-test/Pods-test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B8103611EF23672007A2854 /* libOtherLibrary.a in Frameworks */,
+				72D9761FBBA55EBFD8148C17 /* libPods-test.a in Frameworks */,
+				2B8103631EF259A0007A2854 /* libSharkeySDKWithiOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +102,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B8103BA1EF2791D007A2854 /* Model.momd */ = {
+			isa = PBXGroup;
+			children = (
+				2B8103BB1EF2791D007A2854 /* Model.mom */,
+				2B8103BC1EF2791D007A2854 /* VersionInfo.plist */,
+			);
+			path = Model.momd;
+			sourceTree = "<group>";
+		};
 		2BBEE2A41EF0E59000930775 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +118,8 @@
 				2BBEE2C91EF0E59100930775 /* testTests */,
 				2BBEE2D41EF0E59100930775 /* testUITests */,
 				2BBEE2AE1EF0E59000930775 /* Products */,
+				B37ACE64A77E00B0CC9D5212 /* Pods */,
+				D5BF91629F9EED57BD5D9440 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +136,7 @@
 		2BBEE2AF1EF0E59000930775 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				2BE074CA1EF22EA300DF15F1 /* OtherLibrary */,
 				2BBEE2B31EF0E59000930775 /* AppDelegate.h */,
 				2BBEE2B41EF0E59000930775 /* AppDelegate.m */,
 				2BBEE2B61EF0E59000930775 /* ViewController.h */,
@@ -140,6 +176,41 @@
 			path = testUITests;
 			sourceTree = "<group>";
 		};
+		2BE074CA1EF22EA300DF15F1 /* OtherLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				2B8103BA1EF2791D007A2854 /* Model.momd */,
+				2B8103BD1EF2791D007A2854 /* wristBandImage.xcassets */,
+				2BE074CB1EF22EA300DF15F1 /* SYCommon.h */,
+				2BE074CC1EF22EA300DF15F1 /* WCDSharkeyFunction.h */,
+				2BE074CF1EF2321D00DF15F1 /* SYDeviveManagerViewController.h */,
+				2BE074D01EF232C200DF15F1 /* SYBaseViewController.h */,
+				2B8103601EF23672007A2854 /* libOtherLibrary.a */,
+				2B8103621EF259A0007A2854 /* libSharkeySDKWithiOS.a */,
+			);
+			path = OtherLibrary;
+			sourceTree = "<group>";
+		};
+		B37ACE64A77E00B0CC9D5212 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7767BBD9A29A72162A20EF2 /* Pods-test.debug.xcconfig */,
+				F1B6A28F79ABAB16431E2832 /* Pods-test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D5BF91629F9EED57BD5D9440 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BE074C81EF22DEB00DF15F1 /* CoreGraphics.framework */,
+				2BE074C61EF22DDF00DF15F1 /* MobileCoreServices.framework */,
+				2BE074C41EF22DBB00DF15F1 /* CoreBluetooth.framework */,
+				394B0241B5D0799E8BA14075 /* libPods-test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BBEE2DA1EF0E59100930775 /* Build configuration list for PBXNativeTarget "test" */;
 			buildPhases = (
+				8C3287FBB6DEA684A3B843A2 /* [CP] Check Pods Manifest.lock */,
 				2BBEE2A91EF0E59000930775 /* Sources */,
 				2BBEE2AA1EF0E59000930775 /* Frameworks */,
 				2BBEE2AB1EF0E59000930775 /* Resources */,
+				FFADB7F81A214F99164CF19B /* [CP] Embed Pods Frameworks */,
+				126ED5AE8203C19DCF388874 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +324,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BBEE2C01EF0E59100930775 /* LaunchScreen.storyboard in Resources */,
+				2B8103BF1EF2791D007A2854 /* VersionInfo.plist in Resources */,
+				2B8103C01EF2791D007A2854 /* wristBandImage.xcassets in Resources */,
+				2B8103BE1EF2791D007A2854 /* Model.mom in Resources */,
 				2BBEE2BD1EF0E59100930775 /* Assets.xcassets in Resources */,
 				2BBEE2BB1EF0E59100930775 /* Main.storyboard in Resources */,
 			);
@@ -270,6 +347,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		126ED5AE8203C19DCF388874 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test/Pods-test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C3287FBB6DEA684A3B843A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFADB7F81A214F99164CF19B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test/Pods-test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2BBEE2A91EF0E59000930775 /* Sources */ = {
@@ -377,6 +502,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -419,6 +545,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -427,25 +554,53 @@
 		};
 		2BBEE2DB1EF0E59100930775 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7767BBD9A29A72162A20EF2 /* Pods-test.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 227JJ5V99C;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/test",
+				);
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/test",
+					"$(PROJECT_DIR)/test/OtherLibrary",
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.synjones.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 arm64";
 			};
 			name = Debug;
 		};
 		2BBEE2DC1EF0E59100930775 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1B6A28F79ABAB16431E2832 /* Pods-test.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 227JJ5V99C;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/test",
+				);
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/test",
+					"$(PROJECT_DIR)/test/OtherLibrary",
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.synjones.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 arm64";
 			};
 			name = Release;
 		};
@@ -518,6 +673,7 @@
 				2BBEE2DC1EF0E59100930775 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BBEE2DD1EF0E59100930775 /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +682,7 @@
 				2BBEE2DF1EF0E59100930775 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BBEE2E01EF0E59100930775 /* Build configuration list for PBXNativeTarget "testUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +691,7 @@
 				2BBEE2E21EF0E59100930775 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

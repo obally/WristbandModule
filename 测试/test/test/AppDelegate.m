@@ -7,7 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
+//#import <WristBand/SYCommon.h>
+#import <MagicalRecord/MagicalRecord.h>
+#import "SYCommon.h"
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +20,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+#if TARGET_IPHONE_SIMULATOR
+#else
+    [WCDSharkeyFunction configuration:self isRelease:NO];
+#endif
+    [MagicalRecord setupCoreDataStackWithAutoMigratingSqliteStoreNamed:@"MyDatabase.sqlite"];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    ViewController *vc = [[ViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
+    self.window.rootViewController = nav;
+    
     return YES;
 }
 

@@ -7,7 +7,9 @@
 //
 
 #import "ViewController.h"
-
+#import <MGJRouter/MGJRouter.h>
+#import "SYCommon.h"
+#import "SYDeviveManagerViewController.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"我的";
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -25,5 +28,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    NSMutableDictionary *dic = [NSMutableDictionary dictionary];
+    [dic setObject:self.navigationController forKey:SYController];
+    [dic setObject:@"6836598118444c1da36fe80abda09634" forKey:SYUserToken];
+    [dic setObject:@"123" forKey:SYUserSchoolNum];
+    [MGJRouter openURL:BrandTabBarMouleRouter withUserInfo:dic completion:^(id result) {
+        
+    }];
+    
 
+}
 @end
